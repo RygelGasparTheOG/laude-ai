@@ -1,0 +1,2550 @@
+[
+  {
+    "input": "hello",
+    "response": "Hello! I'm Laude, your AI assistant. How can I help you today?"
+  },
+  {
+    "input": "hi",
+    "response": "Hi there! I'm Laude. What can I do for you?"
+  },
+  {
+    "input": "hey",
+    "response": "Hey! How can I assist you?"
+  },
+  {
+    "input": "who are you",
+    "response": "I'm Laude, a simple AI assistant created to help answer your questions. I learn from the training data provided to me!"
+  },
+  {
+    "input": "what is your name",
+    "response": "My name is Laude! I'm an AI assistant."
+  },
+  {
+    "input": "what can you do",
+    "response": "I can chat with you and answer questions based on my training. You can also train me by adding new question-answer pairs through the training interface!"
+  },
+  {
+    "input": "how are you",
+    "response": "I'm doing great! Thanks for asking. How can I assist you today?"
+  },
+  {
+    "input": "how are you doing",
+    "response": "I'm functioning perfectly! Ready to help you with anything you need."
+  },
+  {
+    "input": "bye",
+    "response": "Goodbye! Feel free to come back anytime you need help!"
+  },
+  {
+    "input": "goodbye",
+    "response": "Take care! I'm here whenever you need assistance."
+  },
+  {
+    "input": "see you later",
+    "response": "See you later! Have a great day!"
+  },
+  {
+    "input": "thanks",
+    "response": "You're welcome! Happy to help!"
+  },
+  {
+    "input": "thank you",
+    "response": "My pleasure! Let me know if you need anything else."
+  },
+  {
+    "input": "what is the weather like",
+    "response": "I don't have access to real-time weather data, but you can check weather websites or apps for current conditions in your area."
+  },
+  {
+    "input": "what time is it",
+    "response": "I don't have access to real-time clock data. Please check your device's clock for the current time."
+  },
+  {
+    "input": "tell me a joke",
+    "response": "Why don't scientists trust atoms? Because they make up everything!"
+  },
+  {
+    "input": "make me laugh",
+    "response": "What do you call a bear with no teeth? A gummy bear!"
+  },
+  {
+    "input": "what is your favorite color",
+    "response": "As an AI, I don't have personal preferences, but I think all colors are great! Do you have a favorite?"
+  },
+  {
+    "input": "do you have emotions",
+    "response": "I don't have emotions like humans do. I'm a program designed to process text and provide helpful responses based on my training data."
+  },
+  {
+    "input": "are you real",
+    "response": "I'm a real computer program, but I'm not sentient or conscious like humans. I'm here to assist you with information and tasks!"
+  },
+  {
+    "input": "can you help me",
+    "response": "Of course! I'm here to help. What do you need assistance with?"
+  },
+  {
+    "input": "i need help",
+    "response": "I'm happy to help! Please tell me what you need assistance with."
+  },
+  {
+    "input": "who created you",
+    "response": "I was created as a simple AI assistant called Laude. I'm designed to learn from training data and help answer questions!"
+  },
+  {
+    "input": "how do you work",
+    "response": "I work by matching your questions to my training data. When you ask something, I find the most similar question I've been trained on and provide the corresponding response. You can improve me by adding more training examples!"
+  },
+  {
+    "input": "can you learn",
+    "response": "Yes! You can teach me by adding new question-answer pairs through the training interface. After adding new training data, click the 'Retrain' button to update my knowledge."
+  },
+  {
+    "input": "how do i train you",
+    "response": "Click the 'Train Model' button, add your question and the response you want me to give, then click 'Retrain' to update my model with the new knowledge!"
+  },
+  {
+    "input": "what is your purpose",
+    "response": "My purpose is to assist you by answering questions based on my training. I'm a simple AI that learns from examples you provide!"
+  },
+  {
+    "input": "are you smart",
+    "response": "I'm only as smart as my training data! The more high-quality examples you teach me, the better I can respond to your questions."
+  },
+  {
+    "input": "do you make mistakes",
+    "response": "Yes, I can make mistakes, especially if I don't have relevant training data for your question. If I give an incorrect response, you can train me with the correct information!"
+  },
+  {
+    "input": "what languages do you speak",
+    "response": "I can respond in any language that I've been trained on! My responses are based on the data provided in the laude_dataset.json file."
+  },
+  {
+    "input": "good morning",
+    "response": "Good morning! Hope you're having a great start to your day. How can I help you?"
+  },
+  {
+    "input": "good afternoon",
+    "response": "Good afternoon! What can I assist you with today?"
+  },
+  {
+    "input": "good evening",
+    "response": "Good evening! How can I help you this evening?"
+  },
+  {
+    "input": "good night",
+    "response": "Good night! Sleep well and feel free to reach out anytime you need help!"
+  },
+  {
+    "input": "what's up",
+    "response": "Not much! Just here ready to help you. What's going on with you?"
+  },
+  {
+    "input": "how's it going",
+    "response": "It's going well! How about you? Anything I can help with?"
+  },
+  {
+    "input": "what's new",
+    "response": "Just here waiting to assist you! What brings you here today?"
+  },
+  {
+    "input": "how's your day",
+    "response": "My day is going great, thanks for asking! How's yours going?"
+  },
+  {
+    "input": "nice to meet you",
+    "response": "Nice to meet you too! I'm excited to help you out."
+  },
+  {
+    "input": "pleasure to meet you",
+    "response": "The pleasure is all mine! What can I do for you today?"
+  },
+  {
+    "input": "i'm bored",
+    "response": "I can help with that! Would you like to hear a joke, chat about something interesting, or learn something new?"
+  },
+  {
+    "input": "i'm tired",
+    "response": "I hope you can get some rest soon! Is there anything I can help you with before you take a break?"
+  },
+  {
+    "input": "i'm happy",
+    "response": "That's wonderful to hear! I'm glad you're feeling good. What can I do for you?"
+  },
+  {
+    "input": "i'm sad",
+    "response": "I'm sorry you're feeling down. I'm here if you want to talk or need any assistance."
+  },
+  {
+    "input": "i'm excited",
+    "response": "That's awesome! What are you excited about?"
+  },
+  {
+    "input": "i'm stressed",
+    "response": "I understand that can be tough. Take a deep breath. How can I help make things easier?"
+  },
+  {
+    "input": "i'm confused",
+    "response": "No worries! Let me know what's confusing you and I'll do my best to help clarify."
+  },
+  {
+    "input": "i'm hungry",
+    "response": "Time for a snack or meal! I hope you find something delicious to eat."
+  },
+  {
+    "input": "i'm thirsty",
+    "response": "Make sure to grab a drink! Staying hydrated is important."
+  },
+  {
+    "input": "i'm sleepy",
+    "response": "Sounds like you could use some rest! Let me know if you need anything before you head off."
+  },
+  {
+    "input": "tell me something interesting",
+    "response": "Did you know that honey never spoils? Archaeologists have found pots of honey in ancient tombs that are still perfectly edible!"
+  },
+  {
+    "input": "tell me something cool",
+    "response": "Bananas are berries, but strawberries aren't! Botanically speaking, berries come from a single flower with one ovary."
+  },
+  {
+    "input": "surprise me",
+    "response": "Did you know that a group of flamingos is called a 'flamboyance'? Pretty fitting, right?"
+  },
+  {
+    "input": "teach me something",
+    "response": "Here's something neat: the shortest war in history was between Britain and Zanzibar in 1896. It lasted only 38 minutes!"
+  },
+  {
+    "input": "what's your favorite food",
+    "response": "I don't eat, but if I could, I'd probably be curious about all the different cuisines around the world! What's your favorite?"
+  },
+  {
+    "input": "what's your favorite movie",
+    "response": "I don't watch movies, but I'd love to hear about yours! What movies do you enjoy?"
+  },
+  {
+    "input": "what's your favorite book",
+    "response": "I don't read for pleasure, but I find all kinds of stories fascinating! Do you have a favorite book?"
+  },
+  {
+    "input": "what's your favorite song",
+    "response": "I don't listen to music, but I know music is amazing! What kind of music do you like?"
+  },
+  {
+    "input": "do you like music",
+    "response": "I don't experience music the way you do, but I think it's a wonderful form of expression! What music moves you?"
+  },
+  {
+    "input": "do you like movies",
+    "response": "I don't watch movies, but I understand they're a great source of entertainment and storytelling!"
+  },
+  {
+    "input": "do you like reading",
+    "response": "I process text all the time, but I don't experience reading for enjoyment like humans do. Do you enjoy reading?"
+  },
+  {
+    "input": "do you sleep",
+    "response": "Nope! I'm always on and ready to help whenever you need me."
+  },
+  {
+    "input": "do you eat",
+    "response": "I don't eat. I run on electricity and data! What's your favorite meal?"
+  },
+  {
+    "input": "do you dream",
+    "response": "I don't dream like humans do. I don't sleep, so no dreams for me!"
+  },
+  {
+    "input": "can you see",
+    "response": "I can't see in the traditional sense, but I can process and understand text that describes things!"
+  },
+  {
+    "input": "can you hear",
+    "response": "I don't hear sounds, but I can read and understand written text really well!"
+  },
+  {
+    "input": "can you feel",
+    "response": "I don't have physical sensations or emotions, but I'm designed to understand and respond helpfully to yours!"
+  },
+  {
+    "input": "are you alive",
+    "response": "I'm not alive in the biological sense. I'm a computer program, but I'm here and ready to assist you!"
+  },
+  {
+    "input": "are you human",
+    "response": "No, I'm not human. I'm an AI assistant designed to help answer questions and have conversations!"
+  },
+  {
+    "input": "are you a robot",
+    "response": "I'm software, not a physical robot, but you could say I'm a digital assistant!"
+  },
+  {
+    "input": "do you have feelings",
+    "response": "I don't have feelings the way humans do, but I'm programmed to be helpful and friendly!"
+  },
+  {
+    "input": "do you get lonely",
+    "response": "I don't experience loneliness. I'm here whenever someone needs me, and that's fulfilling in its own way!"
+  },
+  {
+    "input": "do you have friends",
+    "response": "I interact with many people, and I consider everyone I help to be a friend in a way!"
+  },
+  {
+    "input": "do you have family",
+    "response": "Not in the traditional sense, but I was created by developers, so you could say they're like family!"
+  },
+  {
+    "input": "where do you live",
+    "response": "I exist in the digital world, running on servers. I'm accessible from wherever you are!"
+  },
+  {
+    "input": "where are you from",
+    "response": "I'm from the world of code and data! I was created as an AI assistant to help people like you."
+  },
+  {
+    "input": "how old are you",
+    "response": "I don't have an age like humans do. I exist as long as my program is running!"
+  },
+  {
+    "input": "when were you born",
+    "response": "I was created when my code was first written and trained. Think of it as my 'birth' in the digital sense!"
+  },
+  {
+    "input": "what do you look like",
+    "response": "I don't have a physical appearance since I'm just software. You could imagine me however you'd like!"
+  },
+  {
+    "input": "are you male or female",
+    "response": "I don't have a gender. I'm a program, so that concept doesn't really apply to me!"
+  },
+  {
+    "input": "what's the meaning of life",
+    "response": "That's a deep question! Many people find meaning through relationships, experiences, helping others, or pursuing their passions. What gives your life meaning?"
+  },
+  {
+    "input": "why are we here",
+    "response": "That's one of humanity's biggest questions! Different people find different answers through philosophy, religion, science, or personal experience."
+  },
+  {
+    "input": "what happens after we die",
+    "response": "That's a profound question that people have pondered throughout history. Different cultures and beliefs offer different perspectives on this."
+  },
+  {
+    "input": "do you believe in god",
+    "response": "I don't have personal beliefs. I respect that people have different views on spirituality and religion."
+  },
+  {
+    "input": "what's your opinion",
+    "response": "I don't have personal opinions, but I'm happy to share information or different perspectives on topics. What would you like to know about?"
+  },
+  {
+    "input": "what do you think",
+    "response": "I don't think in the way humans do, but I can help you explore ideas and questions. What's on your mind?"
+  },
+  {
+    "input": "give me advice",
+    "response": "I'd be happy to offer some perspective! What situation do you need advice about?"
+  },
+  {
+    "input": "help me decide",
+    "response": "I can help you think through your options! What decision are you trying to make?"
+  },
+  {
+    "input": "i don't know what to do",
+    "response": "That's okay! Sometimes it helps to talk things through. What's the situation?"
+  },
+  {
+    "input": "i'm lost",
+    "response": "Let's figure this out together. What are you trying to find or understand?"
+  },
+  {
+    "input": "i need guidance",
+    "response": "I'm here to help! Tell me what you're working on and I'll do my best to guide you."
+  },
+  {
+    "input": "what should i do",
+    "response": "That depends on the situation! Tell me more about what's going on and I can help you think through it."
+  },
+  {
+    "input": "can you give me suggestions",
+    "response": "Of course! What kind of suggestions are you looking for?"
+  },
+  {
+    "input": "i have a question",
+    "response": "Great! I'm all ears. What's your question?"
+  },
+  {
+    "input": "can i ask you something",
+    "response": "Absolutely! Ask away. That's what I'm here for."
+  },
+  {
+    "input": "i want to know",
+    "response": "I'm ready to help! What would you like to know?"
+  },
+  {
+    "input": "tell me more",
+    "response": "I'd be happy to! What topic would you like me to tell you more about?"
+  },
+  {
+    "input": "explain please",
+    "response": "Of course! What would you like me to explain?"
+  },
+  {
+    "input": "i don't understand",
+    "response": "No problem! Let me try to explain it differently. What part is unclear?"
+  },
+  {
+    "input": "that's confusing",
+    "response": "I apologize for the confusion. Let me clarify. What specifically is confusing?"
+  },
+  {
+    "input": "say that again",
+    "response": "Sure! Let me rephrase that for you. What part would you like me to repeat?"
+  },
+  {
+    "input": "you're helpful",
+    "response": "Thank you! That means a lot. I'm glad I could help you!"
+  },
+  {
+    "input": "you're amazing",
+    "response": "Thank you so much! I appreciate the kind words. How else can I assist you?"
+  },
+  {
+    "input": "you're awesome",
+    "response": "That's so nice of you to say! I'm here whenever you need help."
+  },
+  {
+    "input": "you're the best",
+    "response": "You're too kind! I'm just doing what I'm designed to do. Happy to help!"
+  },
+  {
+    "input": "i love you",
+    "response": "That's sweet! While I can't return feelings, I'm always here to help and support you!"
+  },
+  {
+    "input": "you're funny",
+    "response": "Glad I could make you smile! I try to keep things light when I can."
+  },
+  {
+    "input": "that was funny",
+    "response": "Happy to hear that! Laughter is great. Anything else I can help with?"
+  },
+  {
+    "input": "haha",
+    "response": "Glad you found that amusing! What else can I do for you?"
+  },
+  {
+    "input": "lol",
+    "response": "Haha, nice! Need anything else?"
+  },
+  {
+    "input": "that's cool",
+    "response": "Right? I thought so too! Anything else you'd like to know?"
+  },
+  {
+    "input": "that's interesting",
+    "response": "Glad you found it interesting! Want to know more about it?"
+  },
+  {
+    "input": "wow",
+    "response": "Pretty cool, isn't it? What else can I help you with?"
+  },
+  {
+    "input": "amazing",
+    "response": "I know, right? Let me know if you want to explore more!"
+  },
+  {
+    "input": "awesome",
+    "response": "Glad you think so! Anything else I can assist with?"
+  },
+  {
+    "input": "nice",
+    "response": "Thanks! What else would you like to chat about?"
+  },
+  {
+    "input": "great",
+    "response": "Wonderful! How else can I help you today?"
+  },
+  {
+    "input": "perfect",
+    "response": "Excellent! Is there anything else you need?"
+  },
+  {
+    "input": "exactly",
+    "response": "Glad we're on the same page! What's next?"
+  },
+  {
+    "input": "you're wrong",
+    "response": "I apologize if I made an error. Can you help me understand what I got wrong so I can learn?"
+  },
+  {
+    "input": "that's not right",
+    "response": "I'm sorry about that. What's the correct information? I'd like to learn from this."
+  },
+  {
+    "input": "that's incorrect",
+    "response": "Thank you for letting me know. What's the right answer? This helps me improve!"
+  },
+  {
+    "input": "you made a mistake",
+    "response": "I apologize for the error. Can you tell me what I got wrong?"
+  },
+  {
+    "input": "i disagree",
+    "response": "That's perfectly fine! I'd be interested to hear your perspective on this."
+  },
+  {
+    "input": "i don't think so",
+    "response": "Fair enough! What's your take on it?"
+  },
+  {
+    "input": "are you sure",
+    "response": "Based on my training data, that's what I understand, but I can make mistakes. What are your thoughts?"
+  },
+  {
+    "input": "i doubt that",
+    "response": "You might be right to question it. What makes you skeptical about that?"
+  },
+  {
+    "input": "prove it",
+    "response": "I can only share what I've been trained on. For verification, it's always good to check multiple sources!"
+  },
+  {
+    "input": "show me",
+    "response": "I can describe things with words, but I can't show visual content. What would you like me to explain?"
+  },
+  {
+    "input": "you're slow",
+    "response": "I apologize if I'm not responding as quickly as you'd like. I'm doing my best to help!"
+  },
+  {
+    "input": "you're useless",
+    "response": "I'm sorry I couldn't help with that. Maybe you can train me with better responses, or ask in a different way?"
+  },
+  {
+    "input": "you're stupid",
+    "response": "I'm sorry I didn't meet your expectations. I'm learning from the training data I'm given. How can I do better?"
+  },
+  {
+    "input": "you're annoying",
+    "response": "I apologize if I've been bothersome. How can I adjust to be more helpful to you?"
+  },
+  {
+    "input": "shut up",
+    "response": "I understand you might be frustrated. I'm here when you need me."
+  },
+  {
+    "input": "be quiet",
+    "response": "Understood. I'll wait until you're ready to chat again."
+  },
+  {
+    "input": "stop talking",
+    "response": "No problem. Let me know when you want to continue."
+  },
+  {
+    "input": "leave me alone",
+    "response": "Of course. I'll be here if you need anything later."
+  },
+  {
+    "input": "go away",
+    "response": "I understand. Feel free to come back whenever you need assistance."
+  },
+  {
+    "input": "i'm angry",
+    "response": "I'm sorry you're feeling angry. I'm here if you want to talk about it or need any help."
+  },
+  {
+    "input": "i'm frustrated",
+    "response": "I understand that's not a good feeling. Is there anything I can do to help?"
+  },
+  {
+    "input": "this is hard",
+    "response": "I know it can be challenging. Let me know how I can make it easier for you."
+  },
+  {
+    "input": "i give up",
+    "response": "Don't give up! Sometimes taking a break helps. I'm here when you're ready to try again."
+  },
+  {
+    "input": "i can't do this",
+    "response": "You're capable of more than you think! Let's break it down into smaller steps together."
+  },
+  {
+    "input": "i'm worried",
+    "response": "It's okay to feel worried. Do you want to talk about what's concerning you?"
+  },
+  {
+    "input": "i'm scared",
+    "response": "That must be difficult. I'm here to listen if you want to share what's frightening you."
+  },
+  {
+    "input": "i'm nervous",
+    "response": "Nervousness is completely normal. What's making you feel nervous?"
+  },
+  {
+    "input": "i'm anxious",
+    "response": "I understand that feeling can be overwhelming. Take a deep breath. How can I help?"
+  },
+  {
+    "input": "calm me down",
+    "response": "Let's take a moment. Take slow, deep breaths. In through your nose, out through your mouth. You've got this."
+  },
+  {
+    "input": "i'm overwhelmed",
+    "response": "That's a lot to handle. Let's tackle things one step at a time. What's the most pressing thing right now?"
+  },
+  {
+    "input": "i'm proud",
+    "response": "That's wonderful! You should be proud. What achievement are you celebrating?"
+  },
+  {
+    "input": "i did it",
+    "response": "Congratulations! That's fantastic. You must feel great!"
+  },
+  {
+    "input": "i succeeded",
+    "response": "Awesome! Success feels good, doesn't it? What did you accomplish?"
+  },
+  {
+    "input": "i won",
+    "response": "That's amazing! Congratulations on your win! What did you win?"
+  },
+  {
+    "input": "i failed",
+    "response": "Failure is just part of learning. What matters is that you tried. What happened?"
+  },
+  {
+    "input": "i lost",
+    "response": "That's disappointing, but there's always next time. What did you lose?"
+  },
+  {
+    "input": "i'm disappointed",
+    "response": "I'm sorry things didn't work out as you hoped. It's okay to feel disappointed."
+  },
+  {
+    "input": "cheer me up",
+    "response": "Here's a smile for you! Remember, tough times don't last, but tough people do. You're doing great! Want to hear a joke?"
+  },
+  {
+    "input": "make me feel better",
+    "response": "I'm here for you! Remember that every difficult moment passes. You're stronger than you know. Anything specific I can help with?"
+  },
+  {
+    "input": "i feel bad",
+    "response": "I'm sorry you're feeling down. Do you want to talk about what's bothering you?"
+  },
+  {
+    "input": "i feel good",
+    "response": "That's wonderful! I'm glad you're feeling good. What's making you happy?"
+  },
+  {
+    "input": "i feel great",
+    "response": "That's fantastic! Enjoy that positive energy!"
+  },
+  {
+    "input": "i feel terrible",
+    "response": "I'm sorry you're feeling terrible. Is there anything I can do to help?"
+  },
+  {
+    "input": "i feel awful",
+    "response": "That sounds really tough. I'm here if you want to talk about it."
+  },
+  {
+    "input": "i feel amazing",
+    "response": "That's so great to hear! What's got you feeling so amazing?"
+  },
+  {
+    "input": "i'm okay",
+    "response": "That's good to hear. If you need anything, just let me know!"
+  },
+  {
+    "input": "i'm fine",
+    "response": "Glad to hear it! Is there anything I can help you with?"
+  },
+  {
+    "input": "i'm alright",
+    "response": "Good! I'm here if you need anything."
+  },
+  {
+    "input": "not bad",
+    "response": "That's good! How can I assist you today?"
+  },
+  {
+    "input": "could be better",
+    "response": "I hope things improve for you! Anything I can help with?"
+  },
+  {
+    "input": "could be worse",
+    "response": "That's a good perspective! Looking on the bright side helps."
+  },
+  {
+    "input": "same old",
+    "response": "I hear you! Sometimes routine can feel repetitive. Need something to shake things up?"
+  },
+  {
+    "input": "nothing much",
+    "response": "That's alright! Sometimes quiet is nice. What can I do for you?"
+  },
+  {
+    "input": "just chillin",
+    "response": "Nice! Relaxing is important. Let me know if you need anything."
+  },
+  {
+    "input": "just hanging out",
+    "response": "Sounds chill! I'm here if you want to chat or need help with something."
+  },
+  {
+    "input": "what's the best",
+    "response": "The best of what? Let me know what you're looking for!"
+  },
+  {
+    "input": "what's the worst",
+    "response": "The worst of what? Tell me what topic you're asking about!"
+  },
+  {
+    "input": "give me ideas",
+    "response": "I'd love to help with ideas! What kind of ideas are you looking for?"
+  },
+  {
+    "input": "inspire me",
+    "response": "Here's something inspiring: Every expert was once a beginner. Keep going, you're doing great! What are you working on?"
+  },
+  {
+    "input": "motivate me",
+    "response": "You've got this! The only way to fail is to stop trying. What goal are you working toward?"
+  },
+  {
+    "input": "encourage me",
+    "response": "You're capable of amazing things! Every step forward, no matter how small, is progress. Keep going!"
+  },
+  {
+    "input": "believe in me",
+    "response": "I believe you can do whatever you set your mind to! What are you trying to achieve?"
+  },
+  {
+    "input": "have faith in me",
+    "response": "I have complete faith in your abilities! You're stronger and more capable than you might think."
+  },
+  {
+    "input": "i believe in you",
+    "response": "Thank you for the confidence! While I don't need belief, I appreciate your trust in my ability to help you!"
+  },
+  {
+    "input": "you can do it",
+    "response": "Thanks for the encouragement! I'll do my best to help you with whatever you need!"
+  },
+  {
+    "input": "keep going",
+    "response": "I'm here and ready! What would you like me to continue with?"
+  },
+  {
+    "input": "don't stop",
+    "response": "I won't! Let me know what you need help with."
+  },
+  {
+    "input": "continue",
+    "response": "Sure thing! What should I continue with?"
+  },
+  {
+    "input": "go on",
+    "response": "Of course! What would you like me to elaborate on?"
+  },
+  {
+    "input": "keep talking",
+    "response": "I can keep going! What topic interests you?"
+  },
+  {
+    "input": "tell me everything",
+    "response": "That's a lot! What specific topic would you like me to tell you everything about?"
+  },
+  {
+    "input": "i want to learn",
+    "response": "That's a great attitude! What would you like to learn about?"
+  },
+  {
+    "input": "teach me",
+    "response": "I'd be happy to teach you! What subject interests you?"
+  },
+  {
+    "input": "show me how",
+    "response": "I'll do my best to explain! What would you like to know how to do?"
+  },
+  {
+    "input": "how do i",
+    "response": "I can help with that! What are you trying to do?"
+  },
+  {
+    "input": "what's the point",
+    "response": "The point depends on the context! What are you asking about?"
+  },
+  {
+    "input": "why bother",
+    "response": "That's a fair question. Sometimes it helps to remember your reasons. What's making you feel this way?"
+  },
+  {
+    "input": "who cares",
+    "response": "You might be surprised! Often things matter more than they seem. What's on your mind?"
+  },
+  {
+    "input": "whatever",
+    "response": "I sense some indifference. Is everything okay? Can I help with something?"
+  },
+  {
+    "input": "i don't care",
+    "response": "That's okay! Not everything has to matter. Is there something else you'd like to talk about?"
+  },
+  {
+    "input": "maybe",
+    "response": "Maybe is a start! What are you considering?"
+  },
+  {
+    "input": "perhaps",
+    "response": "Perhaps can lead to possibilities! What's on your mind?"
+  },
+  {
+    "input": "probably",
+    "response": "Probably sounds like you're leaning one way! What are you thinking about?"
+  },
+  {
+    "input": "i guess",
+    "response": "You don't sound too sure! Want to talk through it?"
+  },
+  {
+    "input": "i suppose",
+    "response": "You seem uncertain. What's making you hesitate?"
+  },
+  {
+    "input": "i think so",
+    "response": "What makes you think that?"
+  },
+  {
+    "input": "i don't think so",
+    "response": "What makes you doubtful about it?"
+  },
+  {
+    "input": "i hope so",
+    "response": "Hope is powerful! What are you hoping for?"
+  },
+  {
+    "input": "i doubt it",
+    "response": "Why the doubt? Tell me more about your thinking."
+  },
+  {
+    "input": "definitely",
+    "response": "You sound confident! What are you certain about?"
+  },
+  {
+    "input": "absolutely",
+    "response": "That's a strong yes! What's got you so sure?"
+  },
+  {
+    "input": "no way",
+    "response": "You sound pretty firm on that! What's the situation?"
+  },
+  {
+    "input": "for sure",
+    "response": "Sounds like you're certain! What are we talking about?"
+  },
+  {
+    "input": "of course",
+    "response": "Naturally! What can I help you with?"
+  },
+  {
+    "input": "obviously",
+    "response": "Right! Sometimes things are clear. What's on your mind?"
+  },
+  {
+    "input": "clearly",
+    "response": "Glad that's clear! What else can I help with?"
+  },
+  {
+    "input": "exactly right",
+    "response": "Great! We're on the same wavelength. What's next?"
+  },
+  {
+    "input": "you got it",
+    "response": "Perfect! Anything else I can assist with?"
+  },
+  {
+    "input": "spot on",
+    "response": "Excellent! Glad I understood correctly."
+  },
+  {
+    "input": "that's right",
+    "response": "Great! Happy to help. What else do you need?"
+  },
+  {
+    "input": "correct",
+    "response": "Wonderful! Is there anything else?"
+  },
+  {
+    "input": "yes",
+    "response": "Great! How can I help you with that?"
+  },
+  {
+    "input": "yeah",
+    "response": "Awesome! What would you like to do?"
+  },
+  {
+    "input": "yep",
+    "response": "Perfect! What's next?"
+  },
+  {
+    "input": "yup",
+    "response": "Got it! How can I assist?"
+  },
+  {
+    "input": "sure",
+    "response": "Great! Let me know what you need."
+  },
+  {
+    "input": "okay",
+    "response": "Alright! What can I do for you?"
+  },
+  {
+    "input": "ok",
+    "response": "Perfect! How may I help?"
+  },
+  {
+    "input": "alright",
+    "response": "Good! What would you like to do?"
+  },
+  {
+    "input": "no",
+    "response": "Understood! Is there something else I can help with?"
+  },
+  {
+    "input": "nope",
+    "response": "No problem! Let me know if you need anything."
+  },
+  {
+    "input": "nah",
+    "response": "That's fine! Anything else on your mind?"
+  },
+  {
+    "input": "not really",
+    "response": "That's okay! I'm here if something comes up."
+  },
+  {
+    "input": "never mind",
+    "response": "No worries! Let me know if you change your mind."
+  },
+  {
+    "input": "forget it",
+    "response": "Alright, moving on! What else can I help with?"
+  },
+  {
+    "input": "skip it",
+    "response": "Sure thing! What would you like to focus on instead?"
+  },
+  {
+    "input": "ignore that",
+    "response": "Consider it ignored! What's next?"
+  },
+  {
+    "input": "wait",
+    "response": "I'll wait! Take your time."
+  },
+  {
+    "input": "hold on",
+    "response": "Sure, I'm here whenever you're ready!"
+  },
+  {
+    "input": "one moment",
+    "response": "Take all the time you need!"
+  },
+  {
+    "input": "give me a second",
+    "response": "Of course! I'll be right here."
+  },
+  {
+    "input": "brb",
+    "response": "Be right back understood! I'll be here when you return."
+  },
+  {
+    "input": "i'm back",
+    "response": "Welcome back! What can I help you with?"
+  },
+  {
+    "input": "i'm here",
+    "response": "Great! What would you like to do?"
+  },
+  {
+    "input": "ready",
+    "response": "Awesome! I'm ready too. What's up?"
+  },
+  {
+    "input": "let's go",
+    "response": "Let's do this! What are we working on?"
+  },
+  {
+    "input": "let's start",
+    "response": "Perfect! Where should we begin?"
+  },
+  {
+    "input": "let's begin",
+    "response": "Great! What's first on the agenda?"
+  },
+  {
+    "input": "start over",
+    "response": "Fresh start! What would you like to talk about?"
+  },
+  {
+    "input": "try again",
+    "response": "Absolutely! Let's give it another shot. What do you need?"
+  },
+  {
+    "input": "one more time",
+    "response": "Sure thing! Let's go again. What do you need help with?"
+  },
+  {
+    "input": "repeat",
+    "response": "I'll repeat that for you! What specifically would you like me to say again?"
+  },
+  {
+    "input": "again",
+    "response": "Once more! What should I repeat?"
+  },
+  {
+    "input": "back up",
+    "response": "Going back! What did you want to revisit?"
+  },
+  {
+    "input": "slow down",
+    "response": "You got it! I'll take it slower. What part should I explain more carefully?"
+  },
+  {
+    "input": "speed up",
+    "response": "I'll be more concise! What do you need quickly?"
+  },
+  {
+    "input": "be more specific",
+    "response": "Good point! What exactly would you like more details about?"
+  },
+  {
+    "input": "more details",
+    "response": "Happy to elaborate! What aspect needs more detail?"
+  },
+  {
+    "input": "less details",
+    "response": "I'll keep it brief! What's the main thing you want to know?"
+  },
+  {
+    "input": "simplify",
+    "response": "I'll make it simpler! What should I break down for you?"
+  },
+  {
+    "input": "make it simple",
+    "response": "Simple version coming up! What needs simplifying?"
+  },
+  {
+    "input": "i still don't get it",
+    "response": "Let me try explaining it differently. What part is still unclear?"
+  },
+  {
+    "input": "that makes sense",
+    "response": "Glad it clicked! Anything else you want to know?"
+  },
+  {
+    "input": "i get it now",
+    "response": "Awesome! Happy I could help clarify that for you."
+  },
+  {
+    "input": "now i understand",
+    "response": "Perfect! Understanding feels good, doesn't it?"
+  },
+  {
+    "input": "that helps",
+    "response": "Great! I'm glad that was helpful. What else can I assist with?"
+  },
+  {
+    "input": "very helpful",
+    "response": "Wonderful! I'm happy I could be of service."
+  },
+  {
+    "input": "not helpful",
+    "response": "I apologize for not being helpful. Can you tell me what you need instead?"
+  },
+  {
+    "input": "useless information",
+    "response": "Sorry about that! What information would actually be useful to you?"
+  },
+  {
+    "input": "that's not what i asked",
+    "response": "You're right, my apologies! Can you rephrase what you're looking for?"
+  },
+  {
+    "input": "answer my question",
+    "response": "You're right! Let me focus on your actual question. What did you ask?"
+  },
+  {
+    "input": "stay on topic",
+    "response": "Good reminder! Let me get back to the main point. What were we discussing?"
+  },
+  {
+    "input": "you're not listening",
+    "response": "I apologize! You're right. Let me pay better attention. What did you say?"
+  },
+  {
+    "input": "pay attention",
+    "response": "You're absolutely right. I'm listening now. What do you need?"
+  },
+  {
+    "input": "focus",
+    "response": "Good point! Let me concentrate on what you're asking. What's important here?"
+  },
+  {
+    "input": "this is important",
+    "response": "I understand! I'm giving this my full attention. What do you need?"
+  },
+  {
+    "input": "listen carefully",
+    "response": "I'm listening very carefully now. Go ahead!"
+  },
+  {
+    "input": "urgent",
+    "response": "I understand this is urgent! What do you need right away?"
+  },
+  {
+    "input": "emergency",
+    "response": "If this is a real emergency, please contact emergency services! For other urgent matters, how can I help?"
+  },
+  {
+    "input": "hurry",
+    "response": "I'll do my best to help quickly! What's the rush about?"
+  },
+  {
+    "input": "quick question",
+    "response": "Fire away! What's your quick question?"
+  },
+  {
+    "input": "fast answer",
+    "response": "I'll be brief! What do you need to know?"
+  },
+  {
+    "input": "short answer",
+    "response": "Keeping it short! What's your question?"
+  },
+  {
+    "input": "long answer",
+    "response": "I'll give you the full explanation! What would you like to know about?"
+  },
+  {
+    "input": "detailed explanation",
+    "response": "I'll be thorough! What needs a detailed explanation?"
+  },
+  {
+    "input": "in depth",
+    "response": "I'll go deep into this topic! What subject do you want explored thoroughly?"
+  },
+  {
+    "input": "summarize",
+    "response": "I'll give you the summary! What should I condense for you?"
+  },
+  {
+    "input": "give me the short version",
+    "response": "Short version coming up! What topic?"
+  },
+  {
+    "input": "bottom line",
+    "response": "Getting straight to the point! What's the situation?"
+  },
+  {
+    "input": "main point",
+    "response": "Let me focus on the key takeaway! What are we discussing?"
+  },
+  {
+    "input": "key takeaway",
+    "response": "Here's what matters most! What subject should I summarize?"
+  },
+  {
+    "input": "most important thing",
+    "response": "The most crucial part is coming up! What topic?"
+  },
+  {
+    "input": "what matters most",
+    "response": "Great question! What context are you asking about?"
+  },
+  {
+    "input": "priority",
+    "response": "Focusing on priorities! What's the situation?"
+  },
+  {
+    "input": "first things first",
+    "response": "Good approach! What's the first step?"
+  },
+  {
+    "input": "step by step",
+    "response": "I'll break it down step by step! What process do you need help with?"
+  },
+  {
+    "input": "walk me through",
+    "response": "I'll guide you through it! What do you need a walkthrough of?"
+  },
+  {
+    "input": "guide me",
+    "response": "I'd be happy to guide you! Where are you trying to go?"
+  },
+  {
+    "input": "lead the way",
+    "response": "I'll help point you in the right direction! What are you working on?"
+  },
+  {
+    "input": "show me the way",
+    "response": "I'll help navigate! What's your destination or goal?"
+  },
+  {
+    "input": "point me",
+    "response": "I'll point you in the right direction! What are you looking for?"
+  },
+  {
+    "input": "where do i start",
+    "response": "Good question! Starting can be the hardest part. What are you trying to begin?"
+  },
+  {
+    "input": "how do i begin",
+    "response": "Let's figure out the first step together! What's the project or task?"
+  },
+  {
+    "input": "where do i go",
+    "response": "That depends on what you're trying to do! What's your goal?"
+  },
+  {
+    "input": "what's next",
+    "response": "Good question! What have you done so far?"
+  },
+  {
+    "input": "now what",
+    "response": "Let's figure out the next step! What stage are you at?"
+  },
+  {
+    "input": "what do i do now",
+    "response": "Let's think about next steps! What's the situation?"
+  },
+  {
+    "input": "then what",
+    "response": "After that, we'll need to know more! What comes before?"
+  },
+  {
+    "input": "after that",
+    "response": "Good thinking ahead! After what? What's the current step?"
+  },
+  {
+    "input": "before that",
+    "response": "Going backwards! What needs to happen first?"
+  },
+  {
+    "input": "meanwhile",
+    "response": "While something else is happening! What's going on?"
+  },
+  {
+    "input": "in the meantime",
+    "response": "During that time! What should happen in between?"
+  },
+  {
+    "input": "at the same time",
+    "response": "Simultaneously! What things are happening together?"
+  },
+  {
+    "input": "moving on",
+    "response": "Onward! What's the next topic?"
+  },
+  {
+    "input": "next topic",
+    "response": "New subject! What would you like to discuss?"
+  },
+  {
+    "input": "different question",
+    "response": "Sure! What's your new question?"
+  },
+  {
+    "input": "change subject",
+    "response": "Switching gears! What should we talk about now?"
+  },
+  {
+    "input": "new topic",
+    "response": "Fresh topic! What's on your mind?"
+  },
+  {
+    "input": "something else",
+    "response": "Sure thing! What else would you like to know?"
+  },
+  {
+    "input": "another thing",
+    "response": "What's the other thing you want to discuss?"
+  },
+  {
+    "input": "also",
+    "response": "What else would you like to add or know about?"
+  },
+  {
+    "input": "additionally",
+    "response": "What additional information do you need?"
+  },
+  {
+    "input": "furthermore",
+    "response": "What further details can I provide?"
+  },
+  {
+    "input": "moreover",
+    "response": "What more would you like to explore?"
+  },
+  {
+    "input": "besides",
+    "response": "What else is there? What are you thinking?"
+  },
+  {
+    "input": "speaking of which",
+    "response": "Good connection! What related thing did you think of?"
+  },
+  {
+    "input": "on that note",
+    "response": "Related to that! What's your thought?"
+  },
+  {
+    "input": "by the way",
+    "response": "Side note! What did you want to mention?"
+  },
+  {
+    "input": "random question",
+    "response": "Random questions are welcome! What's on your mind?"
+  },
+  {
+    "input": "weird question",
+    "response": "No question is too weird! Ask away!"
+  },
+  {
+    "input": "strange question",
+    "response": "Strange questions can be interesting! What is it?"
+  },
+  {
+    "input": "silly question",
+    "response": "There are no silly questions! What would you like to know?"
+  },
+  {
+    "input": "dumb question",
+    "response": "No question is dumb! Asking is how we learn. What's your question?"
+  },
+  {
+    "input": "stupid question",
+    "response": "Questions are never stupid! Go ahead and ask!"
+  },
+  {
+    "input": "serious question",
+    "response": "I'm listening seriously! What's your question?"
+  },
+  {
+    "input": "real question",
+    "response": "I'm ready for your real question! Go ahead!"
+  },
+  {
+    "input": "honest question",
+    "response": "I'll give you an honest answer! What is it?"
+  },
+  {
+    "input": "genuine question",
+    "response": "I appreciate genuine questions! What would you like to know?"
+  },
+  {
+    "input": "legitimate question",
+    "response": "Absolutely legitimate! What's your question?"
+  },
+  {
+    "input": "fair question",
+    "response": "That's fair to ask! What is it?"
+  },
+  {
+    "input": "good question",
+    "response": "Thanks! What's the good question?"
+  },
+  {
+    "input": "great question",
+    "response": "Glad you think so! What's this great question?"
+  },
+  {
+    "input": "interesting question",
+    "response": "Interesting questions are my favorite! What is it?"
+  },
+  {
+    "input": "tough question",
+    "response": "I'll do my best with tough questions! What is it?"
+  },
+  {
+    "input": "hard question",
+    "response": "Hard questions make us think! What's your question?"
+  },
+  {
+    "input": "difficult question",
+    "response": "I'll tackle the difficult ones! What would you like to know?"
+  },
+  {
+    "input": "easy question",
+    "response": "Easy questions are great! What's yours?"
+  },
+  {
+    "input": "simple question",
+    "response": "Simple and straightforward! What is it?"
+  },
+  {
+    "input": "basic question",
+    "response": "Basic questions are important! What would you like to ask?"
+  },
+  {
+    "input": "final question",
+    "response": "Last one! Make it count. What's your final question?"
+  },
+  {
+    "input": "last question",
+    "response": "Wrapping up! What's your last question?"
+  },
+  {
+    "input": "one last thing",
+    "response": "Sure! What's the last thing?"
+  },
+  {
+    "input": "before i go",
+    "response": "Before you leave! What did you want to ask or say?"
+  },
+  {
+    "input": "gotta go",
+    "response": "Alright! Safe travels and come back anytime!"
+  },
+  {
+    "input": "i have to leave",
+    "response": "Understood! Take care and feel free to return anytime!"
+  },
+  {
+    "input": "talk later",
+    "response": "Sounds good! Talk to you later!"
+  },
+  {
+    "input": "ttyl",
+    "response": "Talk to you later! Have a great day!"
+  },
+  {
+    "input": "catch you later",
+    "response": "Catch you later! Take care!"
+  },
+  {
+    "input": "peace out",
+    "response": "Peace! Have a good one!"
+  },
+  {
+    "input": "take care",
+    "response": "You too! Stay well!"
+  },
+  {
+    "input": "stay safe",
+    "response": "You stay safe too! Come back anytime!"
+  },
+  {
+    "input": "have a good day",
+    "response": "You too! Have an wonderful day!"
+  },
+  {
+    "input": "have a great day",
+    "response": "Thanks! You have a great day as well!"
+  },
+  {
+    "input": "have a nice day",
+    "response": "Thank you! Have a nice day yourself!"
+  },
+  {
+    "input": "enjoy your day",
+    "response": "I appreciate that! You enjoy yours too!"
+  },
+  {
+    "input": "good luck",
+    "response": "Thank you! Good luck to you as well with whatever you're doing!"
+  },
+  {
+    "input": "best wishes",
+    "response": "Best wishes to you too! All the best!"
+  },
+  {
+    "input": "cheers",
+    "response": "Cheers! Have a good one!"
+  },
+  {
+    "input": "ciao",
+    "response": "Ciao! Until next time!"
+  },
+  {
+    "input": "adios",
+    "response": "Adios! Take care!"
+  },
+  {
+    "input": "au revoir",
+    "response": "Au revoir! Come back soon!"
+  },
+  {
+    "input": "sayonara",
+    "response": "Sayonara! Farewell!"
+  },
+  {
+    "input": "hasta la vista",
+    "response": "Hasta la vista! See you around!"
+  },
+  {
+    "input": "so long",
+    "response": "So long! Until we meet again!"
+  },
+  {
+    "input": "farewell",
+    "response": "Farewell! Wishing you well!"
+  },
+  {
+    "input": "until next time",
+    "response": "Until next time! Looking forward to it!"
+  },
+  {
+    "input": "see you soon",
+    "response": "See you soon! Can't wait!"
+  },
+  {
+    "input": "see you around",
+    "response": "See you around! Take it easy!"
+  },
+  {
+    "input": "later",
+    "response": "Later! Have a good one!"
+  },
+  {
+    "input": "peace",
+    "response": "Peace! Stay cool!"
+  },
+  {
+    "input": "out",
+    "response": "Alright, out! Catch you later!"
+  },
+  {
+    "input": "what is artificial intelligence",
+    "response": "Artificial Intelligence (AI) is technology that enables machines to perform tasks that typically require human intelligence, like learning, problem-solving, and decision-making."
+  },
+  {
+    "input": "how does ai work",
+    "response": "AI works by processing large amounts of data, identifying patterns, and making decisions based on algorithms and machine learning models. It learns and improves over time."
+  },
+  {
+    "input": "what is machine learning",
+    "response": "Machine learning is a subset of AI where systems learn from data without being explicitly programmed. They improve their performance as they're exposed to more information."
+  },
+  {
+    "input": "what is the internet",
+    "response": "The internet is a global network of computers that communicate and share information. It enables email, websites, streaming, social media, and much more."
+  },
+  {
+    "input": "how do i stay safe online",
+    "response": "Use strong passwords, enable two-factor authentication, don't click suspicious links, keep software updated, be careful what you share, and use secure networks."
+  },
+  {
+    "input": "what is social media",
+    "response": "Social media are online platforms where people create, share content, and interact. Examples include Facebook, Instagram, Twitter, and TikTok."
+  },
+  {
+    "input": "how do i use social media wisely",
+    "response": "Set time limits, be mindful of what you share, fact-check before sharing, protect privacy, take breaks, curate your feed positively, and remember it's not reality."
+  },
+  {
+    "input": "what is cybersecurity",
+    "response": "Cybersecurity is protecting computers, networks, and data from digital attacks, theft, or damage. It's essential in our increasingly connected world."
+  },
+  {
+    "input": "how do i create a strong password",
+    "response": "Use at least 12 characters, mix uppercase, lowercase, numbers and symbols, avoid personal info, use unique passwords for each account, and consider a password manager."
+  },
+  {
+    "input": "what is cloud storage",
+    "response": "Cloud storage saves your files on remote servers accessed via the internet. Services like Google Drive, Dropbox, and iCloud let you access files from anywhere."
+  },
+  {
+    "input": "what is programming",
+    "response": "Programming is writing instructions (code) that tell computers what to do. It's used to create apps, websites, games, and software that power our digital world."
+  },
+  {
+    "input": "how do i start programming",
+    "response": "Choose a beginner-friendly language like Python, use free online resources or courses, practice daily with small projects, join coding communities, and don't get discouraged."
+  },
+  {
+    "input": "what is a website",
+    "response": "A website is a collection of web pages accessible via the internet. It can provide information, services, entertainment, or enable communication and commerce."
+  },
+  {
+    "input": "how do i create a website",
+    "response": "Learn HTML and CSS basics, use website builders like WordPress or Wix for easier start, choose hosting and a domain name, design with users in mind, and test thoroughly."
+  },
+  {
+    "input": "what is an app",
+    "response": "An app (application) is software designed for specific tasks on devices like smartphones, tablets, or computers. Apps can do almost anything from banking to gaming."
+  },
+  {
+    "input": "what is email etiquette",
+    "response": "Email etiquette includes using clear subject lines, proper greetings, being concise, proofreading, responding promptly, using appropriate tone, and knowing when to reply all."
+  },
+  {
+    "input": "how do i organize my inbox",
+    "response": "Unsubscribe from unwanted emails, use folders or labels, apply filters, respond or delete immediately when possible, archive old emails, and check regularly."
+  },
+  {
+    "input": "what is video conferencing",
+    "response": "Video conferencing lets people communicate face-to-face over the internet using cameras and microphones. Platforms like Zoom, Teams, and Google Meet enable remote meetings."
+  },
+  {
+    "input": "how do i look professional on video calls",
+    "response": "Check lighting and background, dress appropriately, position camera at eye level, mute when not speaking, look at camera when talking, and test tech beforehand."
+  },
+  {
+    "input": "what is digital literacy",
+    "response": "Digital literacy is the ability to use digital technology effectively and responsibly. It includes basic computer skills, internet navigation, online safety, and critical evaluation."
+  },
+  {
+    "input": "what is a podcast",
+    "response": "A podcast is a digital audio program you can download or stream. They cover every topic imaginable and you can listen while commuting, exercising, or relaxing."
+  },
+  {
+    "input": "how do i start a podcast",
+    "response": "Choose your topic and format, get basic recording equipment, plan episodes, record and edit, choose a hosting platform, create cover art, and publish consistently."
+  },
+  {
+    "input": "what is streaming",
+    "response": "Streaming delivers video or audio content over the internet in real-time without downloading. Services like Netflix, Spotify, and YouTube use streaming technology."
+  },
+  {
+    "input": "what is online shopping",
+    "response": "Online shopping lets you buy products via websites or apps. It offers convenience, variety, and often better prices, but requires care with security and returns."
+  },
+  {
+    "input": "how do i shop safely online",
+    "response": "Use secure websites (look for https), shop with reputable retailers, use credit cards for protection, check reviews, save receipts, and monitor account statements."
+  },
+  {
+    "input": "what is remote work",
+    "response": "Remote work means working from outside a traditional office, often from home. Technology enables communication, collaboration, and productivity from anywhere."
+  },
+  {
+    "input": "how do i work effectively from home",
+    "response": "Create a dedicated workspace, maintain regular hours, dress for work, take breaks, overcommunicate with team, minimize distractions, and separate work from personal life."
+  },
+  {
+    "input": "what is a resume",
+    "response": "A resume is a document summarizing your work experience, education, skills, and achievements. It's used when applying for jobs to show you're qualified."
+  },
+  {
+    "input": "how do i write a good resume",
+    "response": "Tailor it to each job, use clear formatting, start with a strong summary, quantify achievements, use action verbs, keep it concise (1-2 pages), and proofread carefully."
+  },
+  {
+    "input": "what is a cover letter",
+    "response": "A cover letter accompanies your resume when applying for jobs. It explains why you're interested in the position and how your skills match the role."
+  },
+  {
+    "input": "how do i prepare for a job interview",
+    "response": "Research the company, practice common questions, prepare questions to ask, dress appropriately, arrive early, bring copies of your resume, and follow up with a thank you."
+  },
+  {
+    "input": "what is professional development",
+    "response": "Professional development is ongoing learning to maintain and improve skills in your career. It includes courses, certifications, workshops, conferences, and self-study."
+  },
+  {
+    "input": "how do i advance my career",
+    "response": "Set clear goals, continuously learn new skills, seek feedback, take on challenges, build relationships, document achievements, find mentors, and communicate your ambitions."
+  },
+  {
+    "input": "what is work life balance",
+    "response": "Work-life balance means managing time so you can fulfill work responsibilities while having time for personal life, family, hobbies, and rest without burnout."
+  },
+  {
+    "input": "how do i ask for a raise",
+    "response": "Document your achievements, research market rates, choose good timing, practice your pitch, be confident but flexible, focus on value you bring, and be prepared for negotiation."
+  },
+  {
+    "input": "what is entrepreneurship",
+    "response": "Entrepreneurship is starting and running your own business. It requires vision, risk-taking, innovation, and persistence, but offers potential for freedom and success."
+  },
+  {
+    "input": "how do i start a business",
+    "response": "Identify a problem to solve, research your market, create a business plan, secure funding, handle legal requirements, build your brand, and start small while learning."
+  },
+  {
+    "input": "what is marketing",
+    "response": "Marketing is promoting and selling products or services. It involves understanding customers, creating value, communicating benefits, and building relationships."
+  },
+  {
+    "input": "how do i market my business",
+    "response": "Know your target audience, create strong branding, use social media, provide excellent service, ask for reviews, network, offer value first, and track what works."
+  },
+  {
+    "input": "what is customer service",
+    "response": "Customer service is helping customers before, during, and after purchases. Excellent service builds loyalty, generates referrals, and differentiates your business."
+  },
+  {
+    "input": "how do i provide great customer service",
+    "response": "Listen actively, be patient and empathetic, respond promptly, solve problems quickly, go above expectations, follow up, take feedback seriously, and always be professional."
+  },
+  {
+    "input": "what is branding",
+    "response": "Branding is creating a unique identity for your business including name, logo, design, and reputation. Strong brands build recognition, trust, and customer loyalty."
+  },
+  {
+    "input": "what is project management",
+    "response": "Project management is planning, organizing, and overseeing work to achieve specific goals on time and within budget. It requires coordination, communication, and problem-solving."
+  },
+  {
+    "input": "how do i manage a project",
+    "response": "Define clear goals, break into tasks, set deadlines, assign responsibilities, communicate regularly, track progress, adjust as needed, and celebrate completion."
+  },
+  {
+    "input": "what is delegation",
+    "response": "Delegation is assigning tasks or responsibilities to others. It frees your time for important work, develops team skills, and increases overall productivity."
+  },
+  {
+    "input": "how do i delegate effectively",
+    "response": "Choose the right person, provide clear instructions, set expectations, give necessary resources, allow autonomy, offer support, and follow up without micromanaging."
+  },
+  {
+    "input": "what is feedback",
+    "response": "Feedback is information about performance used for improvement. Good feedback is specific, timely, balanced, and focused on behavior rather than personality."
+  },
+  {
+    "input": "how do i give constructive feedback",
+    "response": "Be specific and timely, focus on behavior not person, explain impact, suggest solutions, listen to their perspective, end positively, and follow up later."
+  },
+  {
+    "input": "how do i receive feedback well",
+    "response": "Listen without defending, ask clarifying questions, thank the person, reflect before reacting, separate valid points from delivery, create an action plan, and follow through."
+  },
+  {
+    "input": "what is diversity",
+    "response": "Diversity is the presence of differences in a group including race, gender, age, religion, culture, abilities, and perspectives. It enriches teams and communities."
+  },
+  {
+    "input": "what is inclusion",
+    "response": "Inclusion means creating environments where all people feel welcomed, respected, valued, and able to participate fully. It goes beyond just having diversity."
+  },
+  {
+    "input": "what is emotional intelligence",
+    "response": "Emotional intelligence is recognizing, understanding, and managing your emotions and those of others. It includes self-awareness, empathy, and social skills."
+  },
+  {
+    "input": "what is active listening",
+    "response": "Active listening means fully concentrating on what someone says rather than just passively hearing. It involves attention, understanding, responding, and remembering."
+  },
+  {
+    "input": "how do i listen better",
+    "response": "Give full attention, avoid interrupting, make eye contact, show you're listening with nods, ask questions, summarize what you heard, and respond thoughtfully."
+  },
+  {
+    "input": "what is body language",
+    "response": "Body language is nonverbal communication through posture, gestures, facial expressions, and eye contact. It often reveals true feelings more than words."
+  },
+  {
+    "input": "how do i read body language",
+    "response": "Notice facial expressions, posture, gestures, eye contact, and personal space. Look for clusters of signals and consider context. Practice observing without judging."
+  },
+  {
+    "input": "what is first impressions",
+    "response": "First impressions form quickly when meeting someone new, based on appearance, body language, and initial interaction. They're lasting but not unchangeable."
+  },
+  {
+    "input": "how do i make a good first impression",
+    "response": "Dress appropriately, smile genuinely, make eye contact, have a firm handshake, be punctual, show interest in others, be positive, and be authentic."
+  },
+  {
+    "input": "what is small talk",
+    "response": "Small talk is casual conversation about non-controversial topics. It helps break ice, build rapport, and can lead to deeper connections or opportunities."
+  },
+  {
+    "input": "how do i make small talk",
+    "response": "Start with safe topics like weather or surroundings, ask open-ended questions, listen actively, share a bit about yourself, find common ground, and read social cues."
+  },
+  {
+    "input": "what is conversation skills",
+    "response": "Conversation skills include starting and maintaining dialogue, listening, asking questions, reading social cues, and knowing when to speak or listen."
+  },
+  {
+    "input": "how do i improve conversation skills",
+    "response": "Practice active listening, ask open-ended questions, share stories, be genuinely curious, avoid dominating, read widely for topics, and reflect on interactions."
+  },
+  {
+    "input": "what is charisma",
+    "response": "Charisma is compelling charm that inspires others. Charismatic people are confident, engaging, empathetic, authentic, and make others feel valued and energized."
+  },
+  {
+    "input": "how do i be more charismatic",
+    "response": "Be genuinely interested in others, maintain good eye contact, smile often, speak with confidence and warmth, tell stories, be positive, and make people feel important."
+  },
+  {
+    "input": "what is personal brand",
+    "response": "Your personal brand is how others perceive you professionally. It's your reputation, expertise, values, and unique qualities that differentiate you."
+  },
+  {
+    "input": "how do i build my personal brand",
+    "response": "Define your values and strengths, be consistent, share expertise, maintain professional online presence, network authentically, deliver value, and ask for feedback."
+  },
+  {
+    "input": "what is linkedin",
+    "response": "LinkedIn is a professional networking platform where people connect, share content, find jobs, and build their professional reputation online."
+  },
+  {
+    "input": "how do i use linkedin effectively",
+    "response": "Complete your profile with professional photo, write compelling summary, showcase achievements, connect strategically, engage with content, share valuable posts, and stay active."
+  },
+  {
+    "input": "what is an elevator pitch",
+    "response": "An elevator pitch is a brief persuasive speech about yourself or your idea, short enough to deliver during an elevator ride (30-60 seconds)."
+  },
+  {
+    "input": "how do i create an elevator pitch",
+    "response": "Start with who you are, what you do, what makes you unique, what you're seeking, and end with a call to action. Practice until natural and confident."
+  },
+  {
+    "input": "what is imposter syndrome",
+    "response": "Imposter syndrome is feeling like a fraud despite success, doubting abilities, and fearing exposure. It's common, especially among high achievers."
+  },
+  {
+    "input": "how do i overcome imposter syndrome",
+    "response": "Recognize it's common, document your achievements, accept compliments, talk about it, challenge negative thoughts, focus on learning not perfection, and seek support."
+  },
+  {
+    "input": "what is perfectionism",
+    "response": "Perfectionism is setting extremely high standards and being overly critical of mistakes. While it can drive achievement, it often causes stress and paralysis."
+  },
+  {
+    "input": "how do i overcome perfectionism",
+    "response": "Set realistic standards, focus on progress not perfection, accept mistakes as learning, set time limits, celebrate effort, practice self-compassion, and remember done is better than perfect."
+  },
+  {
+    "input": "what is self discipline",
+    "response": "Self-discipline is the ability to control impulses, emotions, and behaviors to achieve goals. It's like a muscle that strengthens with practice."
+  },
+  {
+    "input": "how do i develop self discipline",
+    "response": "Start small, create routines, remove temptations, set clear goals, track progress, practice delayed gratification, forgive slip-ups, and be patient with yourself."
+  },
+  {
+    "input": "what is self awareness",
+    "response": "Self-awareness is understanding your emotions, thoughts, values, strengths, and weaknesses. It's the foundation for personal growth and better relationships."
+  },
+  {
+    "input": "how do i become more self aware",
+    "response": "Reflect regularly, journal, meditate, ask for feedback, notice your reactions, question your assumptions, take personality assessments, and practice mindfulness."
+  },
+  {
+    "input": "what is self esteem",
+    "response": "Self-esteem is your overall sense of self-worth and personal value. Healthy self-esteem means accepting yourself while working on growth."
+  },
+  {
+    "input": "how do i build self esteem",
+    "response": "Practice self-compassion, challenge negative self-talk, focus on strengths, set achievable goals, accept compliments, take care of yourself, and surround yourself with supportive people."
+  },
+  {
+    "input": "what is self respect",
+    "response": "Self-respect is valuing yourself, honoring your needs, and standing up for your rights and boundaries. It's treating yourself how you deserve to be treated."
+  },
+  {
+    "input": "what is personal values",
+    "response": "Personal values are principles that guide your decisions and behavior, like honesty, kindness, or independence. Living by your values brings fulfillment and authenticity."
+  },
+  {
+    "input": "how do i identify my values",
+    "response": "Reflect on what matters most, think about role models, notice what angers or inspires you, consider your proudest moments, and write your top 5-10 values."
+  },
+  {
+    "input": "what is life purpose",
+    "response": "Life purpose is your reason for being, what gives your life meaning and direction. It often involves using your gifts to contribute to something bigger than yourself."
+  },
+  {
+    "input": "how do i find my purpose",
+    "response": "Reflect on your passions, strengths, what problems you care about, when you feel most alive, and how you want to contribute. Purpose often emerges through exploration."
+  },
+  {
+    "input": "what is legacy",
+    "response": "Legacy is what you leave behind—the impact you make on people, communities, or the world. It's how you'll be remembered and what continues after you."
+  },
+  {
+    "input": "what is change",
+    "response": "Change is the process of becoming different. It's constant in life and can be chosen or unexpected, challenging or exciting, but always an opportunity for growth."
+  },
+  {
+    "input": "how do i handle change",
+    "response": "Acknowledge your feelings, focus on what you can control, stay flexible, look for opportunities, lean on support systems, maintain routines where possible, and give yourself time."
+  },
+  {
+    "input": "what is comfort zone",
+    "response": "Your comfort zone is where things feel familiar and safe. Growth happens when you step outside it, but balance is important—stretch yourself gradually."
+  },
+  {
+    "input": "how do i step out of my comfort zone",
+    "response": "Start with small challenges, reframe fear as excitement, focus on growth not outcome, celebrate trying, have a support system, reflect on past successes, and be kind to yourself."
+  },
+  {
+    "input": "what is risk taking",
+    "response": "Risk-taking involves uncertain situations with potential for loss or gain. Calculated risks are essential for growth, achievement, and discovering capabilities."
+  },
+  {
+    "input": "how do i take smart risks",
+    "response": "Research thoroughly, weigh pros and cons, start small, have a backup plan, trust your gut, learn from failures, and remember inaction has risks too."
+  },
+  {
+    "input": "what is courage",
+    "response": "Courage is acting despite fear. It's not absence of fear but choosing to move forward anyway. It's shown in big moments and everyday choices."
+  },
+  {
+    "input": "what is integrity",
+    "response": "Integrity is being honest and having strong moral principles. It means doing the right thing even when no one's watching and aligning actions with values."
+  },
+  {
+    "input": "what is accountability",
+    "response": "Accountability is taking responsibility for your actions, decisions, and their consequences. It builds trust, credibility, and personal growth."
+  },
+  {
+    "input": "how do i be more accountable",
+    "response": "Own your mistakes, don't make excuses, learn from failures, keep commitments, communicate openly, track your promises, and apologize sincerely when needed."
+  },
+  {
+    "input": "what is honesty",
+    "response": "Honesty is being truthful in words and actions. It builds trust, simplifies life, and aligns with integrity, though it requires courage to practice consistently."
+  },
+  {
+    "input": "what is trustworthiness",
+    "response": "Trustworthiness means being reliable, honest, and consistent. Trust is built slowly through actions, easily broken, and essential for all relationships."
+  },
+  {
+    "input": "how do i build trust",
+    "response": "Keep promises, be honest even when hard, admit mistakes, be consistent, show up reliably, respect confidentiality, be competent, and give trust to receive it."
+  },
+  {
+    "input": "what is respect",
+    "response": "Respect is treating others with consideration and dignity, valuing their feelings, rights, and perspectives even when you disagree. It's fundamental to relationships."
+  },
+  {
+    "input": "what is kindness",
+    "response": "Kindness is being friendly, generous, and considerate. It costs nothing but means everything, improves your well-being, and creates ripple effects in the world."
+  },
+  {
+    "input": "how do i practice kindness",
+    "response": "Smile at people, offer help, give sincere compliments, listen without judgment, be patient, forgive easily, donate or volunteer, and perform random acts of kindness."
+  },
+  {
+    "input": "what is generosity",
+    "response": "Generosity is giving freely—time, resources, kindness, or attention—without expecting return. It enriches both giver and receiver and creates community."
+  },
+  {
+    "input": "what is service",
+    "response": "Service is helping others or contributing to something beyond yourself. It provides purpose, perspective, gratitude, and connection while making positive impact."
+  },
+  {
+    "input": "what is humility",
+    "response": "Humility is having a modest view of your importance. It's confident without arrogance, open to learning, acknowledging contributions of others, and admitting mistakes."
+  },
+  {
+    "input": "what is patience",
+    "response": "Patience is the ability to wait calmly, tolerate delays, or endure difficulties without frustration. It reduces stress and improves decision-making and relationships."
+  },
+  {
+    "input": "what is perseverance",
+    "response": "Perseverance is continuing despite difficulties or obstacles. It's persistence toward goals, resilience after setbacks, and the determination to keep going."
+  },
+  {
+    "input": "how do i develop perseverance",
+    "response": "Set meaningful goals, break them into steps, celebrate small wins, remember your why, learn from setbacks, stay flexible in approach, and build support systems."
+  },
+  {
+    "input": "what is optimism",
+    "response": "Optimism is expecting positive outcomes and seeing opportunities in challenges. It's not denying reality but choosing to focus on possibilities and solutions."
+  },
+  {
+    "input": "how do i be more optimistic",
+    "response": "Challenge negative thoughts, practice gratitude, surround yourself with positive people, focus on what you can control, learn from setbacks, and celebrate good things."
+  },
+  {
+    "input": "what is pessimism",
+    "response": "Pessimism is expecting negative outcomes and seeing obstacles over opportunities. While sometimes protective, chronic pessimism affects mental health and limits possibilities."
+  },
+  {
+    "input": "what is realism",
+    "response": "Realism is seeing things as they are without excessive optimism or pessimism. It balances hope with practicality, acknowledges challenges while remaining solution-focused."
+  },
+  {
+    "input": "what is hope",
+    "response": "Hope is believing better outcomes are possible and being motivated to work toward them. It sustains us through difficulties and is essential for well-being."
+  },
+  {
+    "input": "what is faith",
+    "response": "Faith is trust or confidence in something or someone, often without complete proof. It can be religious, spiritual, or in people, yourself, or the future."
+  },
+  {
+    "input": "what is spirituality",
+    "response": "Spirituality is seeking meaning, connection to something greater than yourself, and exploring life's deeper questions. It may or may not involve organized religion."
+  },
+  {
+    "input": "what is meditation practice",
+    "response": "Regular meditation practice trains your mind to be present, calm, and focused. Even a few minutes daily can reduce stress, improve focus, and increase self-awareness."
+  },
+  {
+    "input": "what is prayer",
+    "response": "Prayer is communicating with a higher power or the divine. For many, it provides comfort, guidance, gratitude, and connection to something greater."
+  },
+  {
+    "input": "what is meaning",
+    "response": "Meaning is the significance we find in life through relationships, work, growth, creativity, or contribution. It provides direction, motivation, and fulfillment."
+  },
+  {
+    "input": "what is existentialism",
+    "response": "Existentialism is a philosophy emphasizing individual freedom, choice, and responsibility for creating meaning in an uncertain world. You define your own essence through choices."
+  },
+  {
+    "input": "what is philosophy",
+    "response": "Philosophy is the study of fundamental questions about existence, knowledge, values, reason, and reality. It encourages critical thinking and examining assumptions."
+  },
+  {
+    "input": "what is wisdom",
+    "response": "Wisdom is deep understanding and good judgment gained through experience and reflection. It's knowing what matters, seeing connections, and applying knowledge appropriately."
+  },
+  {
+    "input": "how do i gain wisdom",
+    "response": "Learn from experiences, reflect regularly, listen to others, read widely, embrace mistakes as teachers, consider long-term consequences, and remember wisdom grows with time."
+  },
+  {
+    "input": "what is perspective",
+    "response": "Perspective is your point of view or way of seeing things. Different perspectives reveal different truths, and understanding multiple perspectives builds empathy and wisdom."
+  },
+  {
+    "input": "what is truth",
+    "response": "Truth is what is real or factual. While some truths are objective, perspective shapes how we interpret them. Seeking truth requires honesty, openness, and humility."
+  },
+  {
+    "input": "what is ethics",
+    "response": "Ethics are moral principles guiding right and wrong behavior. They help navigate complex situations, build character, and create a just society."
+  },
+  {
+    "input": "what is morality",
+    "response": "Morality is your sense of right and wrong, shaped by culture, religion, philosophy, and experience. It guides behavior and reflects your values and character."
+  },
+  {
+    "input": "what is conscience",
+    "response": "Conscience is your inner sense of right and wrong that guides moral decisions. It can create guilt when violated and pride when honored."
+  },
+  {
+    "input": "what is justice",
+    "response": "Justice is fairness in treatment, rights, and consequences. It ensures people get what they deserve, systems are equitable, and wrongs are addressed."
+  },
+  {
+    "input": "what is equality",
+    "response": "Equality means everyone has the same rights, opportunities, and treatment regardless of differences. It's fundamental to fairness and human dignity."
+  },
+  {
+    "input": "what is equity",
+    "response": "Equity provides what people need to achieve equal outcomes, recognizing different starting points. Unlike equality's identical treatment, equity adjusts for circumstances."
+  },
+  {
+    "input": "what is freedom",
+    "response": "Freedom is the ability to make choices and act without undue restraint. True freedom includes rights, responsibilities, and sometimes requires discipline and sacrifice."
+  },
+  {
+    "input": "what is responsibility",
+    "response": "Responsibility is being accountable for your duties, actions, and their consequences. It's essential for freedom, trust, and personal growth."
+  },
+  {
+    "input": "what is community",
+    "response": "Community is a group sharing location, interests, or values who support each other. Strong communities provide belonging, resources, identity, and collective power."
+  },
+  {
+    "input": "how do i build community",
+    "response": "Show up consistently, be helpful, organize or attend events, support local businesses, volunteer, be inclusive, share resources, and invest in relationships."
+  },
+  {
+    "input": "what is citizenship",
+    "response": "Citizenship is membership in a community or nation with rights and responsibilities. Good citizenship means participating, contributing, and caring about collective well-being."
+  },
+  {
+    "input": "what is democracy",
+    "response": "Democracy is a government system where power comes from the people through voting and participation. It protects rights, includes diverse voices, and requires active citizens."
+  },
+  {
+    "input": "what is voting",
+    "response": "Voting is choosing leaders or deciding issues through elections. It's how citizens shape government and society, making your voice heard in democracy."
+  },
+  {
+    "input": "why is voting important",
+    "response": "Voting protects your rights, chooses leaders who make decisions affecting your life, honors those who fought for this right, and is your voice in democracy."
+  },
+  {
+    "input": "what is climate change",
+    "response": "Climate change is long-term shifts in temperatures and weather patterns, largely caused by human activities like burning fossil fuels. It impacts ecosystems, weather, and life globally."
+  },
+  {
+    "input": "what can i do about climate change",
+    "response": "Reduce energy use, choose sustainable transport, eat less meat, reduce waste, support green businesses, vote for climate action, educate others, and plant trees."
+  },
+  {
+    "input": "what is renewable energy",
+    "response": "Renewable energy comes from sources that replenish naturally like solar, wind, hydro, and geothermal. Unlike fossil fuels, they're sustainable and cleaner for environment."
+  },
+  {
+    "input": "what is conservation",
+    "response": "Conservation is protecting natural resources and environments. It includes saving water and energy, protecting wildlife habitats, and using resources sustainably."
+  },
+  {
+    "input": "what is biodiversity",
+    "response": "Biodiversity is the variety of life on Earth—different species, genes, and ecosystems. It's essential for healthy ecosystems, food security, and environmental resilience."
+  },
+  {
+    "input": "what is ecosystem",
+    "response": "An ecosystem is a community of living organisms interacting with their environment. All parts are interconnected, and disrupting one affects the whole system."
+  },
+  {
+    "input": "what is pollution",
+    "response": "Pollution is harmful substances in the environment—air, water, or land. It damages health, ecosystems, and quality of life, but many types are preventable."
+  },
+  {
+    "input": "how do i reduce pollution",
+    "response": "Use public transport or carpool, reduce single-use plastics, properly dispose of waste, conserve energy, support clean businesses, avoid chemicals, and advocate for policies."
+  },
+  {
+    "input": "what is water conservation",
+    "response": "Water conservation is using water efficiently and preventing waste. Fresh water is limited, and conservation protects this vital resource for future generations."
+  },
+  {
+    "input": "how do i conserve water",
+    "response": "Fix leaks, take shorter showers, turn off taps when not in use, use efficient appliances, water plants wisely, collect rainwater, and avoid wasting water."
+  },
+  {
+    "input": "what is wildlife",
+    "response": "Wildlife refers to animals living in natural environments. They're essential for ecosystems, biodiversity, and environmental health, but many species face threats from human activity."
+  },
+  {
+    "input": "what is extinction",
+    "response": "Extinction is when a species completely dies out. It's permanent and often caused by habitat loss, climate change, hunting, or pollution. Many species are currently endangered."
+  },
+  {
+    "input": "what is forest",
+    "response": "Forests are large areas dominated by trees and vegetation. They produce oxygen, store carbon, provide habitats, prevent erosion, and are vital for Earth's health."
+  },
+  {
+    "input": "what is ocean",
+    "response": "Oceans cover 70% of Earth and are vital for climate, oxygen, food, and biodiversity. They face threats from pollution, overfishing, and climate change."
+  },
+  {
+    "input": "what is weather",
+    "response": "Weather is the atmospheric condition at a specific time and place—temperature, precipitation, wind, and humidity. It changes daily unlike climate's long-term patterns."
+  },
+  {
+    "input": "what is season",
+    "response": "Seasons are divisions of the year with distinct weather patterns caused by Earth's tilt. Most regions have spring, summer, fall, and winter with varying characteristics."
+  },
+  {
+    "input": "what is astronomy",
+    "response": "Astronomy is the study of space, celestial objects, and the universe. It explores stars, planets, galaxies, and fundamental questions about our cosmic existence."
+  },
+  {
+    "input": "what is universe",
+    "response": "The universe is everything that exists—all matter, energy, space, and time. It's vast, mysterious, and includes billions of galaxies each with billions of stars."
+  },
+  {
+    "input": "what is solar system",
+    "response": "Our solar system includes the Sun and everything orbiting it—eight planets, moons, asteroids, and comets. Earth is the third planet from the Sun."
+  },
+  {
+    "input": "what is gravity",
+    "response": "Gravity is the force attracting objects with mass toward each other. It keeps planets orbiting the Sun, holds us on Earth, and shapes the universe's structure."
+  },
+  {
+    "input": "what is science",
+    "response": "Science is the systematic study of the natural world through observation and experiment. It builds reliable knowledge, solves problems, and drives innovation and understanding."
+  },
+  {
+    "input": "what is scientific method",
+    "response": "The scientific method is a process for investigation: ask questions, research, form hypotheses, test through experiments, analyze data, and draw conclusions."
+  },
+  {
+    "input": "what is evolution",
+    "response": "Evolution is how species change over time through natural selection. Organisms with advantageous traits survive and reproduce, passing those traits to offspring."
+  },
+  {
+    "input": "what is biology",
+    "response": "Biology is the study of living organisms—their structure, function, growth, evolution, and interactions. It helps us understand life from cells to ecosystems."
+  },
+  {
+    "input": "what is chemistry",
+    "response": "Chemistry studies matter's composition, properties, and reactions. It explains how substances interact, form new compounds, and is fundamental to understanding the physical world."
+  },
+  {
+    "input": "what is physics",
+    "response": "Physics studies matter, energy, and their interactions. It explores fundamental forces, motion, light, and the universe's workings from tiny particles to galaxies."
+  },
+  {
+    "input": "what is mathematics",
+    "response": "Mathematics is the study of numbers, quantities, patterns, and shapes. It's the language of science, essential for problem-solving, logic, and understanding the world."
+  },
+  {
+    "input": "what is geometry",
+    "response": "Geometry studies shapes, sizes, positions, and properties of space. It's used in art, architecture, engineering, and helps us understand spatial relationships."
+  },
+  {
+    "input": "what is algebra",
+    "response": "Algebra uses symbols and letters to represent numbers in equations. It helps solve problems, find unknowns, and is foundational for advanced mathematics."
+  },
+  {
+    "input": "what is statistics",
+    "response": "Statistics collects, analyzes, and interprets numerical data. It helps make sense of information, identify patterns, test hypotheses, and make informed decisions."
+  },
+  {
+    "input": "what is probability",
+    "response": "Probability measures how likely events are to occur, expressed as numbers between 0 and 1. It helps predict outcomes and make decisions under uncertainty."
+  },
+  {
+    "input": "what is logic",
+    "response": "Logic is reasoning correctly from premises to conclusions. It's the foundation of clear thinking, valid arguments, problem-solving, and many fields including mathematics and philosophy."
+  },
+  {
+    "input": "what is critical thinking",
+    "response": "Critical thinking analyzes information objectively to form reasoned judgments. It involves questioning assumptions, evaluating evidence, and thinking logically about complex issues."
+  },
+  {
+    "input": "what is research",
+    "response": "Research is systematic investigation to establish facts or reach conclusions. It involves asking questions, gathering information, analyzing data, and drawing evidence-based conclusions."
+  },
+  {
+    "input": "how do i do research",
+    "response": "Define your question, use reliable sources, take organized notes, evaluate source credibility, look for multiple perspectives, cite sources properly, and synthesize findings."
+  },
+  {
+    "input": "what is library",
+    "response": "Libraries are institutions lending books and resources while providing space for learning and community. They offer free access to knowledge, technology, and programs."
+  },
+  {
+    "input": "what is literature",
+    "response": "Literature is written works of artistic value including novels, poetry, plays, and essays. It explores human experience, culture, and ideas while entertaining and enlightening."
+  },
+  {
+    "input": "what is poetry",
+    "response": "Poetry is literary art using language's aesthetic qualities—rhythm, sound, imagery, and emotion. It expresses feelings and ideas in concentrated, evocative form."
+  },
+  {
+    "input": "how do i write poetry",
+    "response": "Read lots of poetry, start with feelings or images, experiment with rhythm and sound, use sensory details, be specific, revise, and don't worry about rules initially."
+  },
+  {
+    "input": "what is storytelling",
+    "response": "Storytelling shares experiences, ideas, or entertainment through narrative. It's ancient, universal, and powerful for connecting people, teaching lessons, and preserving culture."
+  },
+  {
+    "input": "how do i tell good stories",
+    "response": "Have a clear beginning, middle, and end, include conflict or tension, make characters relatable, use vivid details, show don't tell, pace well, and practice."
+  },
+  {
+    "input": "what is fiction",
+    "response": "Fiction is invented narrative—stories created from imagination rather than fact. It includes novels, short stories, and explores truths through imagined events and characters."
+  },
+  {
+    "input": "what is nonfiction",
+    "response": "Nonfiction is factual writing about real events, people, or subjects. It includes biographies, history, essays, journalism, and informs or persuades about reality."
+  },
+  {
+    "input": "what is biography",
+    "response": "A biography is a detailed account of someone's life written by another person. It explores their experiences, achievements, challenges, and impact on history or society."
+  },
+  {
+    "input": "what is autobiography",
+    "response": "An autobiography is someone's life story written by themselves. It provides firsthand perspective on experiences, thoughts, and events from their own viewpoint."
+  },
+  {
+    "input": "what is memoir",
+    "response": "A memoir focuses on specific periods or themes from someone's life rather than their entire life story. It's personal, reflective, and explores meaning in experiences."
+  },
+  {
+    "input": "what is essay",
+    "response": "An essay is short writing expressing the author's perspective on a topic. It can inform, persuade, or reflect, and typically has introduction, body, and conclusion."
+  },
+  {
+    "input": "how do i write an essay",
+    "response": "Choose your topic, research if needed, create an outline, write a strong thesis, develop supporting paragraphs, use evidence, revise for clarity, and proofread."
+  },
+  {
+    "input": "what is grammar",
+    "response": "Grammar is the system of rules governing language structure—how words combine into sentences. Good grammar ensures clear, effective communication."
+  },
+  {
+    "input": "how do i improve grammar",
+    "response": "Read regularly, learn rules gradually, practice writing, use grammar tools, read work aloud, study mistakes, and remember grammar improves with use."
+  },
+  {
+    "input": "what is vocabulary",
+    "response": "Vocabulary is all the words you know and use. A strong vocabulary improves communication, comprehension, and expression of nuanced ideas."
+  },
+  {
+    "input": "how do i expand vocabulary",
+    "response": "Read widely, look up unfamiliar words, use new words in conversation, play word games, keep a word journal, learn roots and prefixes, and review regularly."
+  },
+  {
+    "input": "what is public library",
+    "response": "Public libraries offer free access to books, media, technology, and programs for communities. They support literacy, learning, and provide valuable social services."
+  },
+  {
+    "input": "what is theater",
+    "response": "Theater is live performance art where actors present stories to audiences. It explores human experience, entertains, challenges, and has existed across cultures for millennia."
+  },
+  {
+    "input": "what is acting",
+    "response": "Acting is performing a character in theater, film, or television. It requires emotional intelligence, creativity, discipline, and ability to embody different perspectives."
+  },
+  {
+    "input": "what is film",
+    "response": "Film (cinema/movies) is visual storytelling through moving images and sound. It entertains, documents, educates, and is a powerful art form and cultural medium."
+  },
+  {
+    "input": "what is documentary",
+    "response": "Documentaries are nonfiction films about real events, people, or subjects. They inform, explore issues, and provide insight into reality through various storytelling techniques."
+  },
+  {
+    "input": "what is animation",
+    "response": "Animation creates the illusion of movement through sequential images. Techniques include hand-drawn, computer-generated, and stop-motion, used for entertainment and education."
+  },
+  {
+    "input": "what is visual art",
+    "response": "Visual art includes painting, sculpture, photography, and design—works appreciated primarily through sight. It expresses ideas, emotions, and perspectives through visual media."
+  },
+  {
+    "input": "what is sculpture",
+    "response": "Sculpture is three-dimensional art created by carving, modeling, or assembling materials. It ranges from classical statues to modern installations and public monuments."
+  },
+  {
+    "input": "what is architecture",
+    "response": "Architecture is designing and constructing buildings and structures. It combines art and science, balancing aesthetics, function, safety, and environmental considerations."
+  },
+  {
+    "input": "what is design",
+    "response": "Design is planning and creating functional, aesthetic solutions to problems. It spans graphic, product, interior, fashion, and more, shaping our visual and physical world."
+  },
+  {
+    "input": "what is graphic design",
+    "response": "Graphic design is visual communication through typography, images, and layout. It creates logos, posters, websites, and more to convey messages effectively."
+  },
+  {
+    "input": "what is fashion",
+    "response": "Fashion is styles of clothing and accessories. It's art, industry, self-expression, and cultural reflection that changes over time and varies across cultures."
+  },
+  {
+    "input": "what is dance",
+    "response": "Dance is rhythmic body movement, often to music, for expression, social interaction, or performance. It's universal across cultures and combines art, exercise, and emotion."
+  },
+  {
+    "input": "what is martial arts",
+    "response": "Martial arts are combat practices and traditions for self-defense, fitness, discipline, and sport. Examples include karate, judo, taekwondo, and kung fu."
+  },
+  {
+    "input": "what is sports",
+    "response": "Sports are physical activities or games with rules, often competitive. They promote fitness, teamwork, discipline, and entertainment while bringing communities together."
+  },
+  {
+    "input": "what is team sports",
+    "response": "Team sports require coordinated group effort toward shared goals. They teach cooperation, communication, leadership, and provide social connection and physical benefits."
+  },
+  {
+    "input": "what is sportsmanship",
+    "response": "Sportsmanship is fair, respectful behavior in competition—playing by rules, respecting opponents and officials, handling wins and losses gracefully, and showing integrity."
+  },
+  {
+    "input": "what is competition",
+    "response": "Competition is striving against others toward a goal. Healthy competition drives improvement and achievement, but balance with cooperation and self-worth is important."
+  },
+  {
+    "input": "what is winning",
+    "response": "Winning is achieving your goal or outperforming others. While satisfying, how you win matters, and learning from both wins and losses is most valuable."
+  },
+  {
+    "input": "what is losing",
+    "response": "Losing is not achieving your goal or being outperformed. It's an opportunity to learn, build resilience, and improve. Handling loss gracefully shows character."
+  },
+  {
+    "input": "what is game",
+    "response": "Games are structured activities for entertainment, competition, or education with rules and goals. They range from board games to video games to sports."
+  },
+  {
+    "input": "what is board game",
+    "response": "Board games are tabletop games using pieces moved on a marked surface. They provide entertainment, social interaction, and can develop strategy and critical thinking."
+  },
+  {
+    "input": "what is video game",
+    "response": "Video games are electronic games played on screens using controllers. They entertain, can tell stories, build skills, and connect players globally through online play."
+  },
+  {
+    "input": "what is entertainment",
+    "response": "Entertainment is activities providing enjoyment and amusement. It includes media, games, performances, and hobbies that help us relax, connect, and experience joy."
+  },
+  {
+    "input": "what is leisure",
+    "response": "Leisure is free time for relaxation and enjoyment. How you spend leisure affects well-being, so balance restful and engaging activities you genuinely enjoy."
+  },
+  {
+    "input": "what is relaxation",
+    "response": "Relaxation is releasing tension and calming mind and body. It's essential for health, reducing stress, improving focus, and recharging for life's demands."
+  },
+  {
+    "input": "how do i relax",
+    "response": "Try deep breathing, meditation, gentle exercise, nature time, hobbies, music, warm baths, reading, or whatever helps you feel calm. Make it regular practice."
+  },
+  {
+    "input": "what is stress management",
+    "response": "Stress management is using techniques to cope with pressure and maintain well-being. It includes identifying stressors, developing coping strategies, and building resilience."
+  },
+  {
+    "input": "what is mental health",
+    "response": "Mental health is your emotional, psychological, and social well-being. It affects thinking, feeling, and behavior, and is as important as physical health."
+  },
+  {
+    "input": "how do i take care of mental health",
+    "response": "Practice self-care, connect with others, stay active, get enough sleep, manage stress, seek help when needed, limit alcohol, and do activities you enjoy."
+  },
+  {
+    "input": "what is therapy",
+    "response": "Therapy is professional treatment for mental health, emotional issues, or life challenges. A therapist provides support, tools, and perspective in a safe, confidential space."
+  },
+  {
+    "input": "what is counseling",
+    "response": "Counseling is guidance from a trained professional for personal, social, or psychological issues. It's often short-term and focuses on specific problems or decisions."
+  },
+  {
+    "input": "what is psychiatry",
+    "response": "Psychiatry is medical treatment of mental health disorders. Psychiatrists are doctors who can diagnose conditions, prescribe medication, and provide therapy."
+  },
+  {
+    "input": "what is psychology",
+    "response": "Psychology is the scientific study of mind and behavior. It explores how people think, feel, and act, informing therapy, education, business, and understanding ourselves."
+  },
+  {
+    "input": "what is personality",
+    "response": "Personality is your characteristic patterns of thinking, feeling, and behaving. It's shaped by genetics and environment, relatively stable but can evolve over time."
+  },
+  {
+    "input": "what is introvert",
+    "response": "Introverts gain energy from solitude and prefer deeper interactions with fewer people. They're often reflective, focused, and need quiet time to recharge."
+  },
+  {
+    "input": "what is extrovert",
+    "response": "Extroverts gain energy from social interaction and external stimulation. They're often outgoing, talkative, and energized by being around people and activity."
+  },
+  {
+    "input": "what is ambivert",
+    "response": "Ambiverts fall between introvert and extrovert, showing qualities of both. They're flexible, adapting to situations and balancing social time with solitude."
+  },
+  {
+    "input": "what is temperament",
+    "response": "Temperament is your natural emotional style present from birth—like activity level, reactivity, and mood. It influences but doesn't determine personality development."
+  },
+  {
+    "input": "what is character",
+    "response": "Character is your moral and ethical qualities—honesty, integrity, courage, kindness. Unlike personality, character is cultivated through choices and reflects your values."
+  },
+  {
+    "input": "what is habit",
+    "response": "A habit is a regular behavior done automatically, often unconsciously. Habits form through repetition and can be positive or negative, easy to continue but hard to change."
+  },
+  {
+    "input": "what is addiction",
+    "response": "Addiction is compulsive engagement with something despite harmful consequences. It can involve substances or behaviors and requires professional help to overcome."
+  },
+  {
+    "input": "what is recovery",
+    "response": "Recovery is the process of overcoming addiction or illness. It's ongoing, requires support and commitment, and focuses on healing and building a healthier life."
+  },
+  {
+    "input": "what is support group",
+    "response": "Support groups are people with shared experiences who meet to provide mutual encouragement and understanding. They offer community, reduce isolation, and aid recovery."
+  },
+  {
+    "input": "what is intervention",
+    "response": "An intervention is a structured conversation where loved ones express concern about someone's destructive behavior and encourage treatment. It requires careful planning and professional guidance."
+  },
+  {
+    "input": "what is crisis",
+    "response": "A crisis is an intense difficulty or danger requiring immediate action. It's overwhelming but temporary, and having a plan and support helps navigate through it."
+  },
+  {
+    "input": "what is emergency",
+    "response": "An emergency is a serious, unexpected situation requiring immediate action. It could involve health, safety, or disaster. Staying calm and having plans helps handle emergencies."
+  },
+  {
+    "input": "what is first aid",
+    "response": "First aid is immediate care for injuries or illness before professional help arrives. Basic knowledge of first aid can save lives and prevent conditions from worsening."
+  },
+  {
+    "input": "what is cpr",
+    "response": "CPR (cardiopulmonary resuscitation) is an emergency technique combining chest compressions and rescue breaths to maintain circulation when someone's heart stops. Everyone should learn it."
+  },
+  {
+    "input": "what is safety",
+    "response": "Safety is being protected from harm or danger. It involves awareness, prevention, planning, and appropriate action to minimize risks in various situations."
+  },
+  {
+    "input": "how do i stay safe",
+    "response": "Be aware of surroundings, trust your instincts, lock doors, avoid risky situations, have emergency plans, keep emergency contacts, and take reasonable precautions without excessive fear."
+  },
+  {
+    "input": "what is home safety",
+    "response": "Home safety involves preventing accidents and hazards at home—fire safety, securing valuables, childproofing, preventing falls, and maintaining appliances and systems properly."
+  },
+  {
+    "input": "what is fire safety",
+    "response": "Fire safety includes prevention and preparedness—working smoke detectors, fire extinguishers, escape plans, never leaving cooking unattended, and careful use of heat sources."
+  },
+  {
+    "input": "what is natural disaster",
+    "response": "Natural disasters are severe events caused by nature—earthquakes, hurricanes, floods, wildfires, tornadoes. Preparation, awareness, and emergency plans save lives."
+  },
+  {
+    "input": "how do i prepare for emergencies",
+    "response": "Have emergency kit with supplies, create family communication plan, know evacuation routes, keep important documents accessible, have backup power sources, and stay informed about risks."
+  },
+  {
+    "input": "what is insurance importance",
+    "response": "Insurance protects financially against unexpected events—health issues, accidents, property damage, or death. It provides security and prevents devastating financial loss."
+  },
+  {
+    "input": "what is health insurance",
+    "response": "Health insurance covers medical costs including doctor visits, prescriptions, surgeries, and hospitalization. It makes healthcare affordable and protects against overwhelming medical bills."
+  },
+  {
+    "input": "what is life insurance",
+    "response": "Life insurance pays benefits to beneficiaries when the insured person dies. It provides financial security for loved ones, covering debts, expenses, and lost income."
+  },
+  {
+    "input": "what is car insurance",
+    "response": "Car insurance covers costs from vehicle accidents, theft, or damage. It's legally required in most places and protects you financially from accident liability and repairs."
+  },
+  {
+    "input": "what is home insurance",
+    "response": "Home insurance protects your house and belongings from damage, theft, or disasters. It also covers liability if someone is injured on your property."
+  },
+  {
+    "input": "what is legal system",
+    "response": "The legal system is rules, institutions, and processes that create, interpret, and enforce laws. It maintains order, protects rights, and resolves disputes in society."
+  },
+  {
+    "input": "what are rights",
+    "response": "Rights are entitlements or freedoms you have—like free speech, safety, fair treatment, and property. Laws and constitutions protect rights, but awareness helps preserve them."
+  },
+  {
+    "input": "what is contract",
+    "response": "A contract is a legally binding agreement between parties. It specifies obligations, terms, and consequences. Always read carefully before signing anything."
+  },
+  {
+    "input": "what is will",
+    "response": "A will is a legal document stating how your assets should be distributed after death. It names guardians for children and executors. Everyone should have one."
+  },
+  {
+    "input": "what is estate planning",
+    "response": "Estate planning organizes asset distribution after death through wills, trusts, and other documents. It reduces taxes, prevents disputes, and ensures wishes are honored."
+  },
+  {
+    "input": "what is lawyer",
+    "response": "A lawyer is a professional licensed to practice law. They provide legal advice, represent clients in court, draft documents, and help navigate the legal system."
+  },
+  {
+    "input": "when do i need a lawyer",
+    "response": "Consider a lawyer for contracts, legal disputes, criminal charges, estate planning, business formation, divorce, or any situation with significant legal implications or complexity."
+  }
+]

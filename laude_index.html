@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laude AI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #f5f5f5;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .header {
+            background: #fff;
+            border-bottom: 1px solid #e5e5e5;
+            padding: 16px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header h1 {
+            font-size: 20px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .sparkle {
+            color: #9b6fff;
+        }
+        .header-buttons {
+            display: flex;
+            gap: 8px;
+        }
+        .btn {
+            background: #9b6fff;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.2s;
+        }
+        .btn:hover {
+            background: #8a5eef;
+        }
+        .btn-secondary {
+            background: #e5e5e5;
+            color: #333;
+        }
+        .btn-secondary:hover {
+            background: #d4d4d4;
+        }
+        .main {
+            flex: 1;
+            display: flex;
+            overflow: hidden;
+        }
+        .chat-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            max-width: 900px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        .messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 24px;
+        }
+        .message {
+            margin-bottom: 24px;
+        }
+        .message-user {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .message-user .content {
+            background: #9b6fff;
+            color: white;
+            padding: 12px 16px;
+            border-radius: 18px;
+            max-width: 70%;
+        }
+        .message-assistant {
+            display: flex;
+            justify-content: flex-start;
+        }
+        .message-assistant .content {
+            background: white;
+            padding: 12px 16px;
+            border-radius: 18px;
+            max-width: 70%;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+        .input-area {
+            padding: 16px 24px;
+            background: white;
+            border-top: 1px solid #e5e5e5;
+        }
+        .input-container {
+            display: flex;
+            gap: 12px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        input[type="text"] {
+            flex: 1;
+            padding: 12px 16px;
+            border: 1px solid #e5e5e5;
+            border-radius: 8px;
+            font-size: 14px;
+            outline: none;
+        }
+        input[type="text"]:focus {
+            border-color: #9b6fff;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 1000;
+        }
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .modal-content {
+            background: white;
+            padding: 24px;
+            border-radius: 12px;
+            max-width: 500px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        .modal-content h2 {
+            margin-bottom: 16px;
+            font-size: 18px;
+        }
+        .form-group {
+            margin-bottom: 16px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #e5e5e5;
+            border-radius: 8px;
+            font-size: 14px;
+            font-family: inherit;
+            resize: vertical;
+            outline: none;
+        }
+        textarea:focus {
+            border-color: #9b6fff;
+        }
+        .button-group {
+            display: flex;
+            gap: 12px;
+            margin-top: 20px;
+        }
+        .training-list {
+            margin-top: 24px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .training-item {
+            padding: 12px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            margin-bottom: 8px;
+        }
+        .training-item strong {
+            display: block;
+            margin-bottom: 4px;
+            color: #9b6fff;
+        }
+        .info-badge {
+            display: inline-block;
+            background: #e0f2fe;
+            color: #0369a1;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-left: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1><span class="sparkle">Laude</span> AI <span class="info-badge" id="modelInfo">Loading...</span></h1>
+        <div class="header-buttons">
+            <button class="btn btn-secondary" onclick="toggleTraining()">Train Model</button>
+            <button class="btn btn-secondary" onclick="downloadData()">Export Data</button>
+            <button class="btn" onclick="retrainModel()">Retrain</button>
+        </div>
+    </div>
+    
+    <div class="main">
+        <div class="chat-container">
+            <div class="messages" id="messages">
+                <div class="message message-assistant">
+                    <div class="content">Hello! I'm Laude, your AI assistant. How can I help you today?</div>
+                </div>
+            </div>
+            <div class="input-area">
+                <div class="input-container">
+                    <input type="text" id="userInput" placeholder="Message Laude..." onkeypress="handleKeyPress(event)">
+                    <button class="btn" onclick="sendMessage()">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="trainingModal">
+        <div class="modal-content">
+            <h2>Train Laude</h2>
+            <p style="color: #666; margin-bottom: 16px; font-size: 14px;">Add new training examples. Click "Retrain" after adding data to update the model.</p>
+            <div class="form-group">
+                <label>User Input:</label>
+                <textarea id="trainInput" rows="3" placeholder="Enter the question or input..."></textarea>
+            </div>
+            <div class="form-group">
+                <label>Response:</label>
+                <textarea id="trainResponse" rows="4" placeholder="Enter the desired response..."></textarea>
+            </div>
+            <div class="button-group">
+                <button class="btn" onclick="trainModel()">Add Training Data</button>
+                <button class="btn btn-secondary" onclick="toggleTraining()">Cancel</button>
+            </div>
+            <div class="training-list" id="trainingList"></div>
+        </div>
+    </div>
+
+    <script>
+        async function loadModelInfo() {
+            try {
+                const response = await fetch('/api/model-info');
+                const data = await response.json();
+                document.getElementById('modelInfo').textContent = 
+                    `${data.training_count} examples | Trained: ${new Date(data.last_trained).toLocaleString()}`;
+            } catch (error) {
+                document.getElementById('modelInfo').textContent = 'Error loading info';
+            }
+        }
+
+        loadModelInfo();
+
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        async function sendMessage() {
+            const input = document.getElementById('userInput');
+            const message = input.value.trim();
+            if (!message) return;
+
+            addMessage('user', message);
+            input.value = '';
+
+            try {
+                const response = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({message: message})
+                });
+                const data = await response.json();
+                addMessage('assistant', data.response);
+            } catch (error) {
+                addMessage('assistant', 'Sorry, I encountered an error. Please try again.');
+            }
+        }
+
+        function addMessage(role, content) {
+            const messagesDiv = document.getElementById('messages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message message-${role}`;
+            messageDiv.innerHTML = `<div class="content">${escapeHtml(content)}</div>`;
+            messagesDiv.appendChild(messageDiv);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        async function toggleTraining() {
+            const modal = document.getElementById('trainingModal');
+            modal.classList.toggle('active');
+            if (modal.classList.contains('active')) {
+                await loadTrainingData();
+            }
+        }
+
+        async function trainModel() {
+            const input = document.getElementById('trainInput').value.trim();
+            const response = document.getElementById('trainResponse').value.trim();
+            
+            if (!input || !response) {
+                alert('Please fill in both fields');
+                return;
+            }
+
+            try {
+                const res = await fetch('/api/train', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({input: input, response: response})
+                });
+                const data = await res.json();
+                alert(data.message + '\\n\\nClick "Retrain" button to update the model with new data.');
+                document.getElementById('trainInput').value = '';
+                document.getElementById('trainResponse').value = '';
+                await loadTrainingData();
+            } catch (error) {
+                alert('Sorry, but there was a problem while adding training data.');
+            }
+        }
+
+        async function loadTrainingData() {
+            try {
+                const response = await fetch('/api/training');
+                const data = await response.json();
+                const listDiv = document.getElementById('trainingList');
+                listDiv.innerHTML = '<h3 style="margin-bottom: 12px;">Current Training Data (' + data.training_data.length + ' examples):</h3>';
+                data.training_data.forEach(item => {
+                    const itemDiv = document.createElement('div');
+                    itemDiv.className = 'training-item';
+                    itemDiv.innerHTML = `<strong>Q:</strong> ${escapeHtml(item.input)}<br><strong>A:</strong> ${escapeHtml(item.response)}`;
+                    listDiv.appendChild(itemDiv);
+                });
+            } catch (error) {
+                console.error('Sorry, but an error occured while loading training data.');
+            }
+        }
+
+        async function retrainModel() {
+            if (!confirm('This will retrain the Laude AI model with all training data. Continue?')) {
+                return;
+            }
+            
+            try {
+                const response = await fetch('/api/retrain', {method: 'POST'});
+                const data = await response.json();
+                alert(data.message);
+                await loadModelInfo();
+            } catch (error) {
+                alert('Sorry, an error occurred while retraining Laude, causing the training to fail.');
+            }
+        }
+
+        async function downloadData() {
+            try {
+                const response = await fetch('/api/training');
+                const data = await response.json();
+                const blob = new Blob([JSON.stringify(data.training_data, null, 2)], {type: 'application/json'});
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'laude_training_data.json';
+                a.click();
+            } catch (error) {
+                alert('Sorry, but there was an error having to do with exporting data.');
+            }
+        }
+    </script>
+</body>
+</html>
