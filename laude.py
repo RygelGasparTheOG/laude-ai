@@ -16,7 +16,7 @@ from collections import defaultdict
 PORT = 8000
 MODEL_FILE = 'laude_model.pkl'
 TRAINING_FILE = 'laude_dataset.json'
-
+CONFIDENCE_THRESHOLD = 7.5
 class LaudeModel:
     
     def __init__(self):
@@ -140,6 +140,7 @@ class LaudeModel:
     
     def calculate_match_score(self, user_words, user_input, embedding):
         """Calculate comprehensive match score"""
+        CONFI_THRESHOLD = CONFIDENCE_THRESHOLD
         score = 0.0
         
         # 1. Exact word matches (highest weight)
@@ -246,7 +247,7 @@ class LaudeModel:
                 best_match = embedding['response']
         
         # Threshold for returning a match
-        confidence_threshold = 7.5  # Adjust this to tune sensitivity
+        confidence_threshold = CONFI_THRESHOLD
         
         if highest_score >= confidence_threshold and best_match:
             return best_match
