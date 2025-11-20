@@ -66,7 +66,7 @@ Click the **"Export Data"** button to download your training data as a JSON file
 laude-ai/
 ├── laude.py              # Main Python server and AI logic
 ├── laude_index.html      # Web interface
-├── laude_dataset.json    # Training data (auto-generated)
+├── laude_dataset.json    # Training data
 ├── laude_model.pkl       # Trained model (auto-generated)
 └── README.md            # This file
 ```
