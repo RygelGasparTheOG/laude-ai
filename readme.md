@@ -8,7 +8,7 @@ A simple, trainable AI assistant built with Python that uses fuzzy matching and 
 - **Trainable**: Easily add new question-answer pairs through the web interface
 - **Typo Tolerant**: Handles misspellings and variations in user input
 - **Web-Based Interface**: Clean, modern UI for chatting and training
-- **Persistent Storage**: Training data and model state saved automatically
+- **Persistent Storage**: Model state saved automatically
 - **Export/Import**: Download training data as JSON for backup or sharing
 - **No Dependencies**: Runs on pure Python with just standard library
 
@@ -133,7 +133,6 @@ This project is open source and available under the MIT License.
 
 - Built as a learning project to demonstrate practical NLP techniques
 - Inspired by the need for simple, understandable AI systems
-- Named "Laude" as a playful take on "Claude"
 
 ## 📧 Support
 
