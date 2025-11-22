@@ -103,7 +103,7 @@ You can modify these settings in `laude.py`:
 - **PORT**: Change the server port (default: 8000)
 - **MODEL_FILE**: Location of the trained model (default: laude_model.pkl)
 - **TRAINING_FILE**: Location of training data (default: laude_dataset.json)
-- **confidence_threshold**: Minimum score to return a match (default: 7.5)
+- **CONFIDENCE_THRESHOLD**: Minimum score to return a match (default: 7.5)
 
 ## 🎯 Use Cases
 
