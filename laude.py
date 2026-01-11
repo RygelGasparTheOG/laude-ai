@@ -140,7 +140,6 @@ class LaudeModel:
     
     def calculate_match_score(self, user_words, user_input, embedding):
         """Calculate comprehensive match score"""
-        CONFI_THRESHOLD = CONFIDENCE_THRESHOLD
         score = 0.0
         
         # 1. Exact word matches (highest weight)
@@ -247,7 +246,7 @@ class LaudeModel:
                 best_match = embedding['response']
         
         # Threshold for returning a match
-        confidence_threshold = CONFI_THRESHOLD
+        confidence_threshold = CONFIDENCE_THRESHOLD
         
         if highest_score >= confidence_threshold and best_match:
             return best_match
